@@ -1,0 +1,28 @@
+.alert{
+  display:block;
+  padding:10px;
+  font-size:20px;
+}
+.alert-clouds{
+  background:#ecf0f1;
+  color:#7f8c8d;
+}
+.alert-slab,
+.alert-green,
+.alert-burn,
+.alert-sky{
+  color:white;
+}
+
+.alert-slab{
+  background:#7f8c8d;
+}
+.alert-green{
+  background:#27ae60;
+}
+.alert-burn{
+  background:#c0392b;
+}
+.alert-sky{
+  background:#2980b9;
+}
