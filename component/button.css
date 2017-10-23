@@ -1,0 +1,73 @@
+.btn{
+  padding:0 14px;
+  margin:2px;
+  height:38px;
+  font-size:18px;
+  border:0;
+  float:left;
+}
+.btn-clouds{
+  background:#ECF0F1;
+  color:#7f8c8d;
+}
+.btn-clouds:hover{
+  background:#e0e4e5;
+}
+.btn-clouds:active{
+  background:#d6dadb;
+}
+.btn-slab{
+  background:#7f8c8d;
+  color:white;
+}
+.btn-slab:hover{
+  background:#768182;
+}
+.btn-slab:active{
+  background:#6d7777;
+}
+.btn-burn{
+  background:#e74c3c;
+  color:white;
+}
+.btn-burn:hover{
+  background:#db4639;
+}
+.btn-burn:active{
+  background:#d14336;
+}
+.btn-green{
+  background:#27ae60;
+  color:white;
+}
+.btn-green:hover{
+  background:#25a359;
+}
+.btn-green:active{
+  background:#239954;
+}
+.btn-sky{
+  background:#2980b9;
+  color:white;
+}
+.btn-sky:hover{
+  background:#277aad;
+}
+.btn-sky:active{
+  background:#2573a3;
+}
+.btn-block{
+  display:block;
+  width:100%;
+  margin:2px 0;
+}
+.btn-sm{
+  padding:0 10px;
+  font-size:14px;
+  height:32px;
+}
+.btn-lg{
+  padding:0 20px;
+  font-size:22px;
+  height:44px;
+}
