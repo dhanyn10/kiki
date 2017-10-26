@@ -32,3 +32,17 @@
   background:#bdc3c7;
   color:434547;
 }
+/*medium view*/
+@media(max-width:768px){
+  .right{
+    float:none;
+  }
+  .nav-item{
+    display:block;
+    border:0;
+  }
+  .navnav li{
+    float:none;
+    display:block;
+  }
+}
