@@ -34,14 +34,14 @@
 }
 /*medium view*/
 @media(max-width:768px){
-  .right{
+  .nav-md .right{
     float:none;
   }
-  .nav-item{
+  .nav-md .nav-item{
     display:block;
     border:0;
   }
-  .navnav li{
+  .nav-md .navnav li{
     float:none;
     display:block;
   }
@@ -49,14 +49,14 @@
 
 /*small view*/
 @media(max-width:576px){
-  .right{
+  .nav-sm .right{
     float:none;
   }
-  .nav-item{
+  .nav-sm .nav-item{
     display:block;
     border:0;
   }
-  .navnav li{
+  .nav-sm .navnav li{
     float:none;
     display:block;
   }
