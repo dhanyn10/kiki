@@ -32,6 +32,8 @@
   background:#bdc3c7;
   color:434547;
 }
+
+/*responsive*/
 /*medium view*/
 @media(max-width:768px){
   .nav-md .right{
