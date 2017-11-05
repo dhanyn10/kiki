@@ -5,3 +5,22 @@
   padding:0;
   border:0;
 }
+/*global css*/
+.bg-clouds{
+    background:#ECF0F1;
+}
+.bg-slab{
+    background:#7f8c8d;
+}
+.bg-burn{
+    background:#e74c3c;
+}
+.bg-green{
+    background:#27ae60;
+}
+.bg-sky{
+    background:#2980b9;
+}
+.text-white{
+    color: white;
+}
