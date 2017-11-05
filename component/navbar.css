@@ -32,34 +32,3 @@
   background:#bdc3c7;
   color:434547;
 }
-
-/*responsive*/
-/*medium view*/
-@media(max-width:768px){
-  .nav-md .right{
-    float:none;
-  }
-  .nav-md .nav-item{
-    display:block;
-    border:0;
-  }
-  .nav-md .navnav li{
-    float:none;
-    display:block;
-  }
-}
-
-/*small view*/
-@media(max-width:576px){
-  .nav-sm .right{
-    float:none;
-  }
-  .nav-sm .nav-item{
-    display:block;
-    border:0;
-  }
-  .nav-sm .navnav li{
-    float:none;
-    display:block;
-  }
-}
