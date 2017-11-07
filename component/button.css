@@ -2,9 +2,24 @@
   padding:0 14px;
   margin:2px;
   height:38px;
-  font-size:18px;
+  font-size:16px;
   border:0;
   float:left;
+}
+.btn-sm{
+  padding:0 10px;
+  font-size:14px;
+  height:32px;
+}
+.btn-md{
+  padding:0 14px;
+  font-size:16px;
+  height:38px;
+}
+.btn-lg{
+  padding:0 20px;
+  font-size:20px;
+  height:44px;
 }
 .btn-group .btn{
   margin:0;
@@ -74,14 +89,4 @@
   display:block;
   width:100%;
   margin:2px 0;
-}
-.btn-sm{
-  padding:0 10px;
-  font-size:14px;
-  height:32px;
-}
-.btn-lg{
-  padding:0 20px;
-  font-size:22px;
-  height:44px;
 }
