@@ -40,49 +40,34 @@
   -moz-border-radius: 0 20px 20px 0;
   border-radius: 0 20px 20px 0;
 }
-.btn-clouds{
-  background:#ECF0F1;
-}
-.btn-clouds:hover{
+.btn.bg-clouds:hover{
   background:#e0e4e5;
 }
-.btn-clouds:active{
+.btn.bg-clouds:active{
   background:#d6dadb;
 }
-.btn-slab{
-  background:#7f8c8d;
-}
-.btn-slab:hover{
+.btn.bg-slab:hover{
   background:#768182;
 }
-.btn-slab:active{
+.btn.bg-slab:active{
   background:#6d7777;
 }
-.btn-burn{
-  background:#e74c3c;
-}
-.btn-burn:hover{
+.btn.bg-burn:hover{
   background:#db4639;
 }
-.btn-burn:active{
+.btn.bg-burn:active{
   background:#d14336;
 }
-.btn-green{
-  background:#27ae60;
-}
-.btn-green:hover{
+.btn.bg-green:hover{
   background:#25a359;
 }
-.btn-green:active{
+.btn.bg-green:active{
   background:#239954;
 }
-.btn-sky{
-  background:#2980b9;
-}
-.btn-sky:hover{
+.btn.bg-sky:hover{
   background:#277aad;
 }
-.btn-sky:active{
+.btn.bg-sky:active{
   background:#2573a3;
 }
 .btn-block{
