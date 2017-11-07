@@ -2,7 +2,8 @@
   list-style:none;
   background:#ECF0F1;
   padding: 5px 8px;
-  font-size:24px;
+  font-size:18px;
+  line-height: 40px;
   color:#7f8c8d;
 }
 .breadcrumb li{
@@ -17,4 +18,7 @@
 }
 .breadcrumb li:last-child:after{
   content:"";
+}
+.breadcrumb li:last-child a{
+  color:inherit;
 }
