@@ -37,67 +37,92 @@
 .g-md-10,
 .g-md-11,
 .g-md-12,
+/*large view global settings*/
+.g-lg-1,
+.g-lg-2,
+.g-lg-3,
+.g-lg-4,
+.g-lg-5,
+.g-lg-6,
+.g-lg-7,
+.g-lg-8,
+.g-lg-9,
+.g-lg-10,
+.g-lg-11,
+.g-lg-12,
 {
     display: inline-block;
     float: left;
 }
 .g-1,
-.g-sm-1
-.g-md-1{
+.g-sm-1,
+.g-md-1,
+.g-lg-1{
     width: 8.33%;
 }
 .g-2,
-.g-sm-2
-.g-md-2{
+.g-sm-2,
+.g-md-2,
+.g-lg-2{
     width: 16.66%;
 }
 .g-3,
-.g-sm-3
-.g-md-3{
+.g-sm-3,
+.g-md-3,
+.g-lg-3{
     width: 25%;
 }
 .g-4,
-.g-sm-4
-.g-md-4{
+.g-sm-4,
+.g-md-4,
+.g-lg-4{
     width: 33.33%;
 }
 .g-5,
-.g-sm-5
-.g-md-5{
+.g-sm-5,
+.g-md-5,
+.g-lg-5{
     width: 41.66%;
 }
 .g-6,
-.g-sm-6
-.g-md-6{
+.g-sm-6,
+.g-md-6,
+.g-lg-6{
     width: 50%;
 }
 .g-7,
-.g-sm-7
-.g-md-7{
+.g-sm-7,
+.g-md-7,
+.g-lg-7{
     width: 58.33%;
 }
 .g-8,
-.g-sm-8
-.g-md-8{
+.g-sm-8,
+.g-md-8,
+.g-lg-8{
     width: 66.66%;
 }
 .g-9,
-.g-sm-9
-.g-md-9{
+.g-sm-9,
+.g-md-9,
+.g-lg-9{
     width: 75%;
 }
 .g-10,
-.g-sm-10
-.g-md-10{
+.g-sm-10,
+.g-md-10,
+.g-lg-10{
     width: 83.33%;
 }
 .g-11,
-.g-sm-11
-.g-md-11{
+.g-sm-11,
+.g-md-11,
+.g-lg-11{
     width: 91.66%;
 }
 .g-12,
-.g-sm-12
-.g-md-12{
+.g-sm-12,
+.g-md-12,
+.g-lg-12{
     width: 100%;
 }
