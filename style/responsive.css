@@ -1,5 +1,6 @@
 /*extra large view*/
-@media (min-width: 1200px){ 
+@media (min-width: 1200px){
+  /*component - navigation*/
   .nav-xl .right{
     float:none;
   }
@@ -14,6 +15,7 @@
 }
 /*large view*/
 @media(min-width: 992px){
+ /*component - navigation*/
   .nav-lg .right{
     float:none;
   }
@@ -25,9 +27,25 @@
     float:none;
     display:block;
   }
+  /*style - grid*/
+  .g-lg-1,
+  .g-lg-2,
+  .g-lg-3,
+  .g-lg-4,
+  .g-lg-5,
+  .g-lg-6,
+  .g-lg-7,
+  .g-lg-8,
+  .g-lg-9,
+  .g-lg-10,
+  .g-lg-11,
+  .g-lg-12,{
+    display: block;
+  }
 }
 /*medium view*/
 @media(max-width:768px){
+  /*component - navigation*/
   .nav-md .right{
     float:none;
   }
@@ -39,10 +57,26 @@
     float:none;
     display:block;
   }
+  /*style - grid*/
+  .g-md-1,
+  .g-md-2,
+  .g-md-3,
+  .g-md-4,
+  .g-md-5,
+  .g-md-6,
+  .g-md-7,
+  .g-md-8,
+  .g-md-9,
+  .g-md-10,
+  .g-md-11,
+  .g-md-12,{
+    display: block;
+  }
 }
 
 /*small view*/
 @media(max-width:576px){
+  /*component - navigation*/
   .nav-sm .right{
     float:none;
   }
@@ -53,5 +87,20 @@
   .nav-sm .navnav li{
     float:none;
     display:block;
+  }
+  /*style - grid*/
+  .g-sm-1,
+  .g-sm-2,
+  .g-sm-3,
+  .g-sm-4,
+  .g-sm-5,
+  .g-sm-6,
+  .g-sm-7,
+  .g-sm-8,
+  .g-sm-9,
+  .g-sm-10,
+  .g-sm-11,
+  .g-sm-12,{
+    display: block;
   }
 }
