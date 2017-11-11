@@ -2,7 +2,7 @@
 .row,
 .container,
 .container-fluid{
-    display: block;
+    display: flex;
     width: 100%;
 }
 .container{
