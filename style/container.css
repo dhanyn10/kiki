@@ -1,0 +1,12 @@
+
+.row,
+.container,
+.container-fluid{
+    display: block;
+}
+.container{
+    margin: 20px;
+}
+.container-fluid{
+    margin: 5px;
+}
