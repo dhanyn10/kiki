@@ -39,8 +39,9 @@
   .g-lg-9,
   .g-lg-10,
   .g-lg-11,
-  .g-lg-12,{
+  .g-lg-12{
     display: block;
+    width: 100%;
   }
 }
 /*medium view*/
@@ -69,8 +70,9 @@
   .g-md-9,
   .g-md-10,
   .g-md-11,
-  .g-md-12,{
+  .g-md-12{
     display: block;
+    width: 100%;
   }
 }
 
@@ -100,7 +102,8 @@
   .g-sm-9,
   .g-sm-10,
   .g-sm-11,
-  .g-sm-12,{
+  .g-sm-12{
     display: block;
+    width: 100%;
   }
 }
