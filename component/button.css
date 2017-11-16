@@ -64,14 +64,128 @@
 }
 /*background*/
 .btn.bg-white:hover{
-  background:#EEEEEE;
+  background: #EEEEEE;
 }
 .btn.bg-white:active{
-  background:#E0E0E0; 
+  background: #E0E0E0; 
 }
 .btn.bg-black:hover{
-  background:#212121;
+  background: #212121;
 }
 .btn.bg-black:active{
   background: black;
+}
+.btn.bg-red:hover{
+  background: #E53935;
+}
+.btn.bg-red:active{
+  background: #D32F2F;
+}
+.btn.bg-pink:hover{
+  background: #D81B60;
+}
+.btn.bg-pink:active{
+  background: #C2185B;
+}
+.btn.bg-purple:hover{
+  background: #8E24AA;
+}
+.btn.bg-purple:active{
+  background: #7B1FA2;
+}
+.btn.bg-deep-purple:hover{
+  background: #5E35B1;
+}
+.btn.btn-deep-purple:active{
+  background: #512DA8;
+}
+.btn.bg-indigo:hover{
+  background: #3F51B5;
+}
+.btn.bg-indigo:active{
+  background: #303F9F;
+}
+.btn.bg-blue:hover{
+  background: #1E88E5;
+}
+.btn.bg-blue:active{
+  background: #1976D2;
+}
+.btn.bg-light-blue:hover{
+  background: #039BE5;
+}
+.btn.bg-light-blue:active{
+  background: #0288D1;
+}
+.btn.bg-cyan:hover{
+  background: #00ACC1;
+}
+.btn.bg-cyan:active{
+  background: #0097A7;
+}
+.btn.bg-teal:hover{
+  background: #00897B;
+}
+.btn.bg-teal:active{
+  background: #00796B;
+}
+.btn.bg-green:hover{
+  background: #43A047;
+}
+.btn.bg-green:active{
+  background: #388E3C;
+}
+.btn.bg-light-green:hover{
+  background: #7CB342;
+}
+.btn.bg-light-green:active{
+  background: #689F38;
+}
+.btn.bg-lime:hover{
+  background: #C0CA33;
+}
+.btn.bg-lime:active{
+  background: #AFB42B;
+}
+.btn.bg-yellow:hover{
+  background: #FDD835;
+}
+.btn.bg-yellow:active{
+  background: #FBC02D;
+}
+.btn.bg-amber:hover{
+  background: #FFB300;
+}
+.btn.bg-amber:active{
+  background: #FFA000;
+}
+.btn.bg-orange:hover{
+  background: #FB8C00;
+}
+.btn.bg-orange:active{
+  background: #F57C00;
+}
+.btn.bg-deep-orange:hover{
+  background: #F4511E;
+}
+.btn.bg-deep-orange:active{
+  background: #E64A19;
+}
+.btn.bg-brown:hover{
+  background: #6D4C41;
+}
+.btn.bg-brown:active{
+  background: #5D4037;
+}
+.btn.bg-grey:hover{
+  background: #757575;
+}
+.btn.bg-grey:active{
+  background: #616161;
+}
+.btn.bg-blue-grey:hover{
+  background: #546E7A;
+}
+.btn.bg-blue-grey:active{
+  background: #455A64;
 }
