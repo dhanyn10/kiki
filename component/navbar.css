@@ -2,7 +2,6 @@
   position:relative;
   display:block;
   width:100%;
-  min-height:40px;
 }
 .navbar{
   list-style:none;
@@ -24,4 +23,26 @@
 }
 .nav.text-white li{
   color: white;
+}
+/*navbar size*/
+.nav-sm{
+  min-height: 35px;
+  font-size: 12px;
+}
+.nav-sm .nav-item{
+  line-height: 35px;
+}
+.nav-md{
+  min-height: 42px;
+  font-size: 14px;
+}
+.nav-md .nav-item{
+  line-height: 42px;
+}
+.nav-lg{
+  min-height: 50px;
+  font-size: 16px;
+}
+.nav-lg .nav-item{
+  line-height: 50px;
 }
