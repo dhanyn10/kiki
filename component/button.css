@@ -62,3 +62,16 @@
   width:100%;
   margin:2px 0;
 }
+/*background*/
+.btn.bg-white:hover{
+  background:#EEEEEE;
+}
+.btn.bg-white:active{
+  background:#E0E0E0; 
+}
+.btn.bg-black:hover{
+  background:#212121;
+}
+.btn.bg-black:active{
+  background: black;
+}
