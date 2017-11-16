@@ -1,14 +1,14 @@
 /*extra large view*/
 @media (min-width: 1200px){
   /*component - navigation*/
-  .nav-xl .right{
+  .nav-g-xl .right{
     float:none;
   }
-  .nav-xl .nav-item{
+  .nav-g-xl .nav-item{
     display:block;
     border:0;
   }
-  .nav-xl .navnav li{
+  .nav-g-xl .navnav li{
     float:none;
     display:block;
   }
@@ -16,14 +16,14 @@
 /*large view*/
 @media(min-width: 992px){
  /*component - navigation*/
-  .nav-lg .right{
+  .nav-g-lg .right{
     float:none;
   }
-  .nav-lg .nav-item{
+  .nav-g-lg .nav-item{
     display:block;
     border:0;
   }
-  .nav-lg .navnav li{
+  .nav-g-lg .navnav li{
     float:none;
     display:block;
   }
@@ -47,14 +47,14 @@
 /*medium view*/
 @media(max-width:768px){
   /*component - navigation*/
-  .nav-md .right{
+  .nav-g-md .right{
     float:none;
   }
-  .nav-md .nav-item{
+  .nav-g-md .nav-item{
     display:block;
     border:0;
   }
-  .nav-md .navnav li{
+  .nav-g-md .navnav li{
     float:none;
     display:block;
   }
@@ -79,14 +79,14 @@
 /*small view*/
 @media(max-width:576px){
   /*component - navigation*/
-  .nav-sm .right{
+  .nav-g-sm .right{
     float:none;
   }
-  .nav-sm .nav-item{
+  .nav-g-sm .nav-item{
     display:block;
     border:0;
   }
-  .nav-sm .navnav li{
+  .nav-g-sm .navnav li{
     float:none;
     display:block;
   }
