@@ -1,13 +1,15 @@
 .breadcrumb{
   list-style:none;
-  background:#ECF0F1;
   padding: 5px 8px;
-  font-size:18px;
+  font-size:16px;
   line-height: 40px;
-  color:#7f8c8d;
 }
 .breadcrumb li{
   display:inline-block;
+}
+.breadcrumb > li > a{
+  text-decoration: underline;
+  color:inherit;
 }
 .breadcrumb li:after{
   content:" \\";
@@ -21,4 +23,5 @@
 }
 .breadcrumb li:last-child a{
   color:inherit;
+  text-decoration: none;
 }
