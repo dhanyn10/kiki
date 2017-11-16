@@ -1,7 +1,8 @@
 .nav{
   position:relative;
-  display:block;
+  display: table;
   width:100%;
+  clear:both;
 }
 .navbar{
   list-style:none;
