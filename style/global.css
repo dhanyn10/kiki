@@ -6,20 +6,68 @@
   border:0;
 }
 /*global css*/
-.bg-clouds{
-    background:#ECF0F1;
+.bg-white{
+    background:white;
 }
-.bg-slab{
-    background:#7f8c8d;
+.bg-black{
+    background:black;
 }
-.bg-burn{
-    background:#e74c3c;
+.bg-red{
+    background:#F44336;
+}
+.bg-pink{
+    background:#E91E63;
+}
+.bg-purple{
+    background:#9C27B0;
+}
+.bg-deep-purple{
+    background: #673AB7;
+}
+.bg-indigo{
+    background: #3F51B5;
+}
+.bg-blue{
+    background: #2196F3;
+}
+.bg-light-blue{
+    background: #03A9F4;
+}
+.bg-cyan{
+    background: #00BCD4;
+}
+.bg-teal{
+    background: #009688;
 }
 .bg-green{
-    background:#27ae60;
+    background: #4CAF50;
 }
-.bg-sky{
-    background:#2980b9;
+.bg-light-green{
+    background: #8BC34A;
+}
+.bg-lime{
+    background: #CDDC39;
+}
+.bg-yellow{
+    background: #FFEB3B;
+}
+.bg-amber{
+    background: #FFC107;
+}
+.bg-orange{
+    background: #FF9800;
+}
+.bg-deep-orange{
+    background: #FF5722;
+}
+.bg-brown{
+    background: #795548;
+}
+.bg-grey{
+    background: #9E9E9E;
+}
+.bg-blue-grey{
+    background: #607D8B;
 }
 .text-white{
     color: white;
