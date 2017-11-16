@@ -1,28 +1,12 @@
 .alert{
   display:block;
-  padding:10px;
-  font-size:20px;
+  padding:16px;
+  font-size:14px;
 }
-.alert-clouds{
-  background:#ecf0f1;
-  color:#7f8c8d;
+.alert > .title{
+  font-weight: 600;
+  line-height: 30px;
 }
-.alert-slab,
-.alert-green,
-.alert-burn,
-.alert-sky{
-  color:white;
-}
-
-.alert-slab{
-  background:#7f8c8d;
-}
-.alert-green{
-  background:#27ae60;
-}
-.alert-burn{
-  background:#c0392b;
-}
-.alert-sky{
-  background:#2980b9;
+.alert > .text{
+  line-height: 24px;
 }
