@@ -1,0 +1,28 @@
+{
+  "name": "minini",
+  "version": "0.1.0",
+  "description": "Pure CSS Framework with MaterialUI color",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanyn10/minini.git"
+  },
+  "keywords": [
+    "framework",
+    "minini",
+    "material",
+    "material-colors"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhanyn10/minini/issues"
+  },
+  "homepage": "https://github.com/dhanyn10/minini#readme"
+}
