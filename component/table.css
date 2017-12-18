@@ -9,11 +9,11 @@
   border-bottom: 2px solid #EEEEEE;
 }
 /*table size*/
-.table-md{
+.table.table-md{
   line-height: 40px;
   font-size: 16px;
 }
-.table-sm{
+.table.table-sm{
   line-height: 30px;
   font-size: 14px;  
 }
