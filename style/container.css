@@ -3,11 +3,10 @@
 .container,
 .container-fluid{
     display: flex;
-    width: 100%;
 }
 .container{
-    margin: 20px;
+    padding: 0 20px;
 }
 .container-fluid{
-    margin: 5px;
+    margin: 0 5px;
 }
