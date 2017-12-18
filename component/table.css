@@ -12,6 +12,16 @@
 .table.row-border td{
   border-top:1px solid #EEEEEE;
 }
+.table.full-border th{
+  border-top:1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+}
+.table.full-border th:first-child{
+  border-left: 1px solid #EEEEEE;
+}
+.table.full-border td{
+  border: 1px solid #EEEEEE;
+}
 /*table size*/
 .table.table-md{
   line-height: 40px;
