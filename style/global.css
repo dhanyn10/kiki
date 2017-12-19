@@ -5,6 +5,10 @@
   padding:0;
   border:0;
 }
+span,
+p{
+    font-size: initial;
+}
 /*global css*/
 .bg-white{
     background:white;
