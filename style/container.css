@@ -1,8 +1,9 @@
-
-.row,
 .container,
 .container-fluid{
     display: flex;
+}
+.row{
+    display: block;
 }
 .container{
     padding: 0 8rem;
