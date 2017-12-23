@@ -53,6 +53,7 @@
 {
     display: inline-block;
     float: left;
+    margin: 0.5rem;
 }
 .g-1,
 .g-sm-1,
