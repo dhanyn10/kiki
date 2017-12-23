@@ -26,6 +26,7 @@ h6{
 }
 blockquote{
     display: block;
+    width: 100%;
     border-left: 0.4rem solid #212121;
     background: #FAFAFA;
     color: #212121;
