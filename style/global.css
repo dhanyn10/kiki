@@ -68,7 +68,9 @@ blockquote > .footer{
 .jumper-6{
     margin: 6rem 0;
 }
-/*global css*/
+.block{
+    display: block;
+}
 /*global background*/
 .bg-white{
     background:white;
