@@ -4,6 +4,7 @@
 }
 .row{
     display: block;
+    width: 100%;
 }
 .container{
     padding: 0 8rem;
