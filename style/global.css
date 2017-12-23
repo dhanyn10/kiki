@@ -24,6 +24,12 @@ h5{
 h6{
     font-size: 1.2rem;
 }
+hr{
+    display: block;
+    margin: 1rem 0;
+    border-style: solid;
+    border-color: #d1d1d1;
+}
 /*blockquote*/
 blockquote{
     display: block;
