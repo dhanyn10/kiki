@@ -1,9 +1,6 @@
-.container,
-.container-fluid{
-    display: flex;
-}
 .row{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 .container{
