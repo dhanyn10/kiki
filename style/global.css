@@ -35,6 +35,7 @@ blockquote > .footer{
     display: block;
     color: #616161;
     font-size: 0.8rem;
+    margin-top: 0.5rem;
 }
 /*
 * css to make jump/space to down direction between each element
