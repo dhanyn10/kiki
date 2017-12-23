@@ -71,6 +71,7 @@ blockquote > .footer{
 /*instant styling*/
 .block{
     display: block;
+    width: 100%;
 }
 /*global background*/
 .bg-white{
