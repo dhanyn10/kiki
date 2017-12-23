@@ -79,6 +79,9 @@ blockquote > .footer{
     display: block;
     width: 100%;
 }
+.right{
+    float: right;
+}
 /*global background*/
 .bg-white{
     background:white;
