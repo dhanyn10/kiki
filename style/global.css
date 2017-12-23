@@ -24,6 +24,18 @@ h5{
 h6{
     font-size: 1.2rem;
 }
+blockquote{
+    display: block;
+    border-left: 0.4rem solid #212121;
+    background: #FAFAFA;
+    color: #212121;
+    padding: 1.4rem;
+}
+blockquote > .footer{
+    display: block;
+    color: #616161;
+    font-size: 0.8rem;
+}
 /*
 * css to make jump/space to down direction between each element
 */
