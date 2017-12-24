@@ -1,0 +1,183 @@
+/*global button*/
+.btn{
+    margin:2px;
+    border:0;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
+    box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
+}
+.btn:focus{
+    outline: none !important;
+}
+.btn:active{
+    -webkit-box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
+    box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
+}
+/*button size*/
+.btn-sm{
+    padding:0 14px;
+    font-size:14px;
+    height:32px;
+}
+.btn-md{
+    padding:0 18px;
+    font-size:16px;
+    height:38px;
+}
+.btn-lg{
+    padding:0 20px;
+    font-size:20px;
+    height:44px;
+}
+/*button group*/
+.btn-group .btn{
+    margin:0;
+}
+/*button style*/
+.btn-blunt{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.btn-rounded{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+/*button group with style*/
+.btn-group.btn-blunt .btn:first-child{
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+.btn-group.btn-blunt .btn:last-child{
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+.btn-group.btn-rounded .btn:first-child{
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 20px;
+}
+.btn-group.btn-rounded .btn:last-child{
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+}
+/*button block*/
+.btn-block{
+    display:block;
+    width:100%;
+    margin:2px 0;
+}
+
+$buttoneffect : (
+    mwhite
+    (
+        #EEEEEE,
+        #E0E0E0
+    ),
+    mdark
+    (
+        #212121,
+        black
+    ),
+    mred
+    (
+        #E53935,
+        #D32F2F
+    ),
+    mpink
+    (
+        #D81B60,
+        #C2185B
+    ),
+    mpurple
+    (
+        #8E24AA,
+        #7B1FA2
+    ),
+    mdeep-purple
+    (
+        #5E35B1,
+        #512DA8
+    ),
+    mindigo
+    (
+        #3F51B5,
+        #303F9F
+    ),
+    mblue
+    (
+        #1E88E5,
+        #1976D2
+    ),
+    mlight-blue
+    (
+        #039BE5,
+        #0288D1
+    ),
+    mcyan
+    (
+        #00ACC1,
+        #0097A7
+    ),
+    mteal
+    (
+        #00897B,
+        #00796B
+    ),
+    mgreen
+    (
+        #43A047,
+        #388E3C
+    ),
+    mlight-green
+    (
+        #7CB342,
+        #689F38,
+    ),
+    mlime
+    (
+        #C0CA33,
+        #AFB42B
+    ),
+    myellow
+    (
+        #FDD835,
+        #FBC02D
+    ),
+    mamber
+    (
+        #FFB300,
+        #FFA000
+    ),
+    morange
+    (
+        #FB8C00,
+        #F57C00
+    ),
+    mdeep-orange
+    (
+        #F4511E,
+        #E64A19
+    ),
+    mbrown
+    (
+        #6D4C41,
+        #5D4037
+    ),
+    mgrey
+    (
+        #757575,
+        #616161
+    ),
+    mblue-grey
+    (
+        #546E7A,
+        #455A64
+    )
+);
