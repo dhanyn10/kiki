@@ -1,0 +1,37 @@
+$grid   : ("xs", "sm", "md", "lg");
+$width  : (8.33, 16.66, 25, 33.33, 41.66, 50, 58.33, 66.66, 75, 83.33, 91.66, 100);
+
+$classname  : "";
+@each $grid in $grid
+{
+    @for $w from 1 through length($width)
+    {
+        $classname : $classname + ".g-" + nth($grid, 1) + "-" + $w + ",";
+    }
+}
+@mixin boxsizing($val)
+{
+    -webkit-box-sizing: $val;
+       -moz-box-sizing: $val;
+            box-sizing: $val;
+}
+#{$classname}
+{
+    float: left;
+    padding: 0.5rem;
+    @include boxsizing(border-box);
+}
+$number : 1;
+@each $width in $width
+{
+    $classname : '';
+    @each $grid in $grid {
+        $classname : $classname + ".g-" + nth($grid, 1) + "-" + $number + ",";
+    }
+    #{$classname}
+    {
+        $width : nth($width, 1) + "%";
+        width: unquote($width);
+    }
+    $number : $number + 1;
+}
