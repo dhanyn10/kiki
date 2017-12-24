@@ -25,23 +25,31 @@
     @include boxshadow(0px 2px 6px -1px rgba(0,0,0,1));
 }
 /*button size*/
+$small      : 12px;
+$medium     : 16px;
+$large      : 20px;
+
+$hsmall     : 30px;
+$hmedium    : 36px;
+$hlarge     : 42px;
+
 .btn-sm{
-    padding:0 14px;
-    font-size:14px;
-    height:32px;
-    line-height: 32px;
+    padding:0 $small;
+    font-size: $small;
+    height: $hsmall;
+    line-height: $hsmall;
 }
 .btn-md{
-    padding:0 18px;
-    font-size:16px;
-    height:38px;
-    line-height: 38px;
+    padding:0 $medium;
+    font-size: $medium;
+    height: $hmedium;
+    line-height: $hmedium;
 }
 .btn-lg{
-    padding:0 20px;
-    font-size:20px;
-    height:44px;
-    line-height: 44px;
+    padding:0 $large;
+    font-size: $large;
+    height: $hlarge;
+    line-height: $hlarge;
 }
 /*button group*/
 .btn-group .btn{
