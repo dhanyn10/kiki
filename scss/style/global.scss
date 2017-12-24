@@ -1,0 +1,106 @@
+/* reset css */
+*{
+  font-family:"Arial";
+  margin:0;
+  padding:0;
+  font-size: 16px;
+}
+/*heading*/
+$headingfont : 3.2rem;
+
+@for $i from 0 through 5{
+    h#{$i+1}{
+        font-size: $headingfont - 0.4 * $i;
+    }
+}
+hr{
+    display: block;
+    margin: 1rem 0;
+    border-style: solid;
+    border-color: #d1d1d1;
+}
+/*blockquote*/
+blockquote{
+    display: block;
+    width: 100%;
+    border-left: 0.4rem solid #212121;
+    background: #FAFAFA;
+    color: #212121;
+    padding: 1.4rem;
+}
+blockquote > .footer{
+    display: block;
+    color: #616161;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+/*jumper general*/
+@mixin multiclassnumbered($length, $classname){
+    $loop : '';
+    @for $i from 1 through $length {
+        $loop : $loop + '.' + $classname + '-' + $i + ',';
+    }
+    #{$loop} {
+        @content;
+    }
+}
+
+@include multiclassnumbered(6, jumper){
+    display: block;
+}
+
+/*jumper each*/
+$jumpermargin: 1rem;
+@for $i from 0 through 5{
+    .jumper-#{$i+1}{
+        margin:$jumpermargin + $i 0;
+    }
+}
+
+/*instant styling*/
+.block{
+    display: block;
+    width: 100%;
+}
+.right{
+    float: right;
+}
+
+$colormaterial : (
+    ("white"        , "ffffff"),
+    ("dark"         , "424242"),
+    ("red"          , "f44336"),
+    ("pink"         , "e91e63"),
+    ("purple"       , "9c27b0"),
+    ("deep-purple"  , "673AB7"),
+    ("indigo"       , "3F51B5"),
+    ("blue"         , "2196F3"),
+    ("light-blue"   , "03A9F4"),
+    ("cyan"         , "00BCD4"),
+    ("teal"         , "009688"),
+    ("green"        , "4CAF50"),
+    ("lightgreen"   , "8BC34A"),
+    ("lime"         , "CDDC39"),
+    ("yellow"       , "FFEB3B"),
+    ("amber"        , "FFC107"),
+    ("orange"       , "FF9800"),
+    ("deeporange"   , "FF5722"),
+    ("brown"        , "795548"),
+    ("grey"         , "9E9E9E"),
+    ("bluegrey"     , "607D8B")
+);
+/*global background*/
+@each $color in $colormaterial {
+    $bgcolor : "#"+nth($color, 2);
+    .bg-#{nth($color, 1)}{
+        background: $bgcolor;
+    }
+}
+/*global text color*/
+@each $color in $colormaterial {
+    $textcolor : "#"+nth($color, 2);
+    .text-#{nth($color, 1)}{
+        color: $textcolor;
+    }
+}
