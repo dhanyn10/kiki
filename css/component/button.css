@@ -1,5 +1,6 @@
 /*global button*/
 .btn {
+  display: inline-block;
   margin: 2px;
   border: 0;
   cursor: pointer;
@@ -23,18 +24,21 @@
   padding: 0 14px;
   font-size: 14px;
   height: 32px;
+  line-height: 32px;
 }
 
 .btn-md {
   padding: 0 18px;
   font-size: 16px;
   height: 38px;
+  line-height: 38px;
 }
 
 .btn-lg {
   padding: 0 20px;
   font-size: 20px;
   height: 44px;
+  line-height: 44px;
 }
 
 /*button group*/
