@@ -1,20 +1,28 @@
+@mixin boxshadow($val)
+{
+    -webkit-box-shadow: $val;
+       -moz-box-shadow: $val;
+            box-shadow: $val;
+}
+@mixin borderradius($val)
+{
+    -webkit-border-radius: $val;
+       -moz-border-radius: $val;
+            border-radius: $val;
+}
 /*global button*/
 .btn{
     display: inline-block;
     margin:2px;
     border:0;
     cursor: pointer;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
-    box-shadow: 0px 1px 4px -1px rgba(0,0,0,1);
+    @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
 }
 .btn:focus{
     outline: none !important;
 }
 .btn:active{
-    -webkit-box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
-    box-shadow: 0px 2px 6px -1px rgba(0,0,0,1);
+    @include boxshadow(0px 2px 6px -1px rgba(0,0,0,1));
 }
 /*button size*/
 .btn-sm{
@@ -41,35 +49,23 @@
 }
 /*button style*/
 .btn-blunt{
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    @include borderradius(5px);
 }
 .btn-rounded{
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    @include borderradius(20px);
 }
 /*button group with style*/
 .btn-group.btn-blunt .btn:first-child{
-    -webkit-border-radius: 5px 0 0 5px;
-    -moz-border-radius: 5px 0 0 5px;
-    border-radius: 5px 0 0 5px;
+    @include borderradius(5px 0 0 5px);
 }
 .btn-group.btn-blunt .btn:last-child{
-    -webkit-border-radius: 0 5px 5px 0;
-    -moz-border-radius: 0 5px 5px 0;
-    border-radius: 0 5px 5px 0;
+    @include borderradius(0 5px 5px 0);
 }
 .btn-group.btn-rounded .btn:first-child{
-    -webkit-border-radius: 20px 0 0 20px;
-    -moz-border-radius: 20px 0 0 20px;
-    border-radius: 20px 0 0 20px;
+    @include borderradius(20px 0 0 20px);
 }
 .btn-group.btn-rounded .btn:last-child{
-    -webkit-border-radius: 0 20px 20px 0;
-    -moz-border-radius: 0 20px 20px 0;
-    border-radius: 0 20px 20px 0;
+    @include borderradius(0 20px 20px 0);
 }
 /*button block*/
 .btn.block{
