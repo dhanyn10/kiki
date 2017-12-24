@@ -94,13 +94,13 @@ $colormaterial : (
 @each $color in $colormaterial {
     $bgcolor : "#"+nth($color, 2);
     .bg-#{nth($color, 1)}{
-        background: $bgcolor;
+        background: #{$bgcolor};
     }
 }
 /*global text color*/
 @each $color in $colormaterial {
     $textcolor : "#"+nth($color, 2);
     .text-#{nth($color, 1)}{
-        color: $textcolor;
+        color: #{$textcolor};
     }
 }
