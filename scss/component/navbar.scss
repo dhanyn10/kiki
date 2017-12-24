@@ -1,0 +1,70 @@
+.nav{
+    position:relative;
+    display: table;
+    width:100%;
+    clear:both;
+}
+.navbar{
+    display: inline-flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.navnav li{
+    float:left;
+}
+.right{
+    float:right;
+}
+.nav-item{
+    float:left;
+    padding: 0 10px;
+    color:#74777a;
+}
+.nav.text-white li{
+    color: white;
+}
+.brand{
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 0 0.5rem;
+}
+$navbarcontent :(
+    sm (12px,38px),
+    md (14px,50px),
+    lg (16px,62px)
+);
+/*navbar*/
+@each $c in $navbarcontent
+{
+    $size : nth($c, 1);//sm, md, lg
+    $val  : nth($c, 2);
+
+    .nav-#{$size} //sm, md, lg
+    {
+        font-size: nth($val, 1);
+        min-height: nth($val, 2);
+    }
+    .nav-#{$size} .nav-item
+    {
+        line-height: nth($val, 2);
+        height: nth($val, 2);
+    }
+    .nav-#{$size} .nav-link
+    {
+        font-size: nth($val, 1);
+    }
+    .nav-#{$size} .nav-brand-img
+    {
+        $valimg : nth($val, 2) - 14;
+        width: $valimg;
+        height: $valimg;
+    }
+    .nav-#{$size} .nav-brand-text
+    {
+        font-size: nth($val, 1);
+        padding: 0 0.5rem;
+        line-height: nth($val, 2) - 14;
+        font-weight: bold;
+    }
+}
