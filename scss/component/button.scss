@@ -75,109 +75,39 @@
 }
 
 $buttoneffect : (
-    mwhite
-    (
-        #EEEEEE,
-        #E0E0E0
-    ),
-    mdark
-    (
-        #212121,
-        black
-    ),
-    mred
-    (
-        #E53935,
-        #D32F2F
-    ),
-    mpink
-    (
-        #D81B60,
-        #C2185B
-    ),
-    mpurple
-    (
-        #8E24AA,
-        #7B1FA2
-    ),
-    mdeep-purple
-    (
-        #5E35B1,
-        #512DA8
-    ),
-    mindigo
-    (
-        #3F51B5,
-        #303F9F
-    ),
-    mblue
-    (
-        #1E88E5,
-        #1976D2
-    ),
-    mlight-blue
-    (
-        #039BE5,
-        #0288D1
-    ),
-    mcyan
-    (
-        #00ACC1,
-        #0097A7
-    ),
-    mteal
-    (
-        #00897B,
-        #00796B
-    ),
-    mgreen
-    (
-        #43A047,
-        #388E3C
-    ),
-    mlight-green
-    (
-        #7CB342,
-        #689F38,
-    ),
-    mlime
-    (
-        #C0CA33,
-        #AFB42B
-    ),
-    myellow
-    (
-        #FDD835,
-        #FBC02D
-    ),
-    mamber
-    (
-        #FFB300,
-        #FFA000
-    ),
-    morange
-    (
-        #FB8C00,
-        #F57C00
-    ),
-    mdeep-orange
-    (
-        #F4511E,
-        #E64A19
-    ),
-    mbrown
-    (
-        #6D4C41,
-        #5D4037
-    ),
-    mgrey
-    (
-        #757575,
-        #616161
-    ),
-    mblue-grey
-    (
-        #546E7A,
-        #455A64
-    )
+    mwhite          (#EEEEEE,#E0E0E0),
+    mdark           (#212121,black),
+    mred            (#E53935,#D32F2F),
+    mpink           (#D81B60,#C2185B),
+    mpurple         (#8E24AA,#7B1FA2),
+    mdeep-purple    (#5E35B1,#512DA8),
+    mindigo         (#3F51B5,#303F9F),
+    mblue           (#1E88E5,#1976D2),
+    mlight-blue     (#039BE5,#0288D1),
+    mcyan           (#00ACC1,#0097A7),
+    mteal           (#00897B,#00796B),
+    mgreen          (#43A047,#388E3C),
+    mlight-green    (#7CB342,#689F38),
+    mlime           (#C0CA33,#AFB42B),
+    myellow         (#FDD835,#FBC02D),
+    mamber          (#FFB300,#FFA000),
+    morange         (#FB8C00,#F57C00),
+    mdeep-orange    (#F4511E,#E64A19),
+    mbrown          (#6D4C41,#5D4037),
+    mgrey           (#757575,#616161),
+    mblue-grey      (#546E7A,#455A64)
 );
+@each $btn in $buttoneffect
+{
+    $name   : nth($btn, 1);
+    $name   : str-slice($name, 2);
+    $color  : nth($btn, 2);
+    .btn.bg-#{$name}:hover
+    {
+        background: nth($color, 1);
+    }
+    .btn.bg-#{$name}:active
+    {
+        background: nth($color, 2);
+    }
+}
