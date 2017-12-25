@@ -1,3 +1,4 @@
+@import "../config";
 @import "../function";
 
 /*global button*/
@@ -8,38 +9,32 @@
     cursor: pointer;
     @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
 }
+/*button effect*/
 .btn:focus{
     outline: none !important;
 }
 .btn:active{
     @include boxshadow(0px 2px 6px -1px rgba(0,0,0,1));
 }
+
 /*button size*/
-$small      : 12px;
-$medium     : 16px;
-$large      : 20px;
-
-$hsmall     : 30px;
-$hmedium    : 36px;
-$hlarge     : 42px;
-
 .btn-sm{
-    padding:0 $small;
-    font-size: $small;
-    height: $hsmall;
-    line-height: $hsmall;
+    padding:0 $el_small;
+    font-size: $el_small;
+    height: $he_small;
+    line-height: $he_small;
 }
 .btn-md{
-    padding:0 $medium;
-    font-size: $medium;
-    height: $hmedium;
-    line-height: $hmedium;
+    padding:0 $el_medium;
+    font-size: $el_medium;
+    height: $he_medium;
+    line-height: $he_medium;
 }
 .btn-lg{
-    padding:0 $large;
-    font-size: $large;
-    height: $hlarge;
-    line-height: $hlarge;
+    padding:0 $el_large;
+    font-size: $el_large;
+    height: $he_large;
+    line-height: $he_large;
 }
 /*button group*/
 .btn-group .btn{
