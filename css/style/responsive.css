@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  .nav-g-sm .navbar {
+    display: block;
+  }
   /*component - navigation*/
   .nav-g-sm .right {
     float: none;
@@ -19,6 +22,9 @@
 }
 
 @media (max-width: 768px) {
+  .nav-g-md .navbar {
+    display: block;
+  }
   /*component - navigation*/
   .nav-g-md .right {
     float: none;
@@ -39,6 +45,9 @@
 }
 
 @media (max-width: 992px) {
+  .nav-g-lg .navbar {
+    display: block;
+  }
   /*component - navigation*/
   .nav-g-lg .right {
     float: none;

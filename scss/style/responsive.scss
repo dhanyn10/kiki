@@ -8,6 +8,9 @@
 
     @media (max-width: nth($nval, 4))
     {
+        .nav-g-#{$nsize} .navbar{
+            display: block;
+        }
         /*component - navigation*/
         .nav-g-#{$nsize} .right{
             float: none;
