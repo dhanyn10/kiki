@@ -1,33 +1,56 @@
-.table{
+.table {
   border-collapse: collapse;
 }
-.table th,
-.table td{
-  padding: 0 10px;
-}
-.table thead th{
-  border-bottom: 2px solid #EEEEEE;
-}
-.table.row-border th,
-.table.row-border td{
-  border-top:1px solid #EEEEEE;
-}
-.table.full-border th{
-  border-top:1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-}
-.table.full-border th:first-child{
-  border-left: 1px solid #EEEEEE;
-}
-.table.full-border td{
-  border: 1px solid #EEEEEE;
-}
+
 /*table size*/
-.table.table-md{
-  line-height: 40px;
+.table.table-sm {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.table.table-md {
+  line-height: 36px;
   font-size: 16px;
 }
-.table.table-sm{
-  line-height: 30px;
-  font-size: 14px;  
+
+.table.table-lg {
+  line-height: 42px;
+  font-size: 20px;
+}
+
+.table.table-sm th,
+.table.table-sm td {
+  padding: 0 12px;
+}
+
+.table.table-md th,
+.table.table-md td {
+  padding: 0 16px;
+}
+
+.table.table-lg th,
+.table.table-lg td {
+  padding: 0 20px;
+}
+
+.table thead th {
+  border-bottom: 2px solid #EEEEEE;
+}
+
+.table.row-border th,
+.table.row-border td {
+  border-top: 1px solid #EEEEEE;
+}
+
+.table.full-border th {
+  border-top: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+}
+
+.table.full-border th:first-child {
+  border-left: 1px solid #EEEEEE;
+}
+
+.table.full-border td {
+  border: 1px solid #EEEEEE;
 }

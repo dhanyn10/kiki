@@ -12,6 +12,10 @@
     line-height: $e_medium;
     font-size: $f_medium;
 }
+.table.table-lg{
+    line-height: $e_large;
+    font-size: $f_large;
+}
 .table.table-sm th,
 .table.table-sm td{
     padding: 0 $f_small;
