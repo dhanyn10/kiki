@@ -19,22 +19,22 @@
 
 /*button size*/
 .btn-sm{
-    padding:0 $el_small;
-    font-size: $el_small;
-    height: $he_small;
-    line-height: $he_small;
+    padding:0 $f_small;
+    font-size: $f_small;
+    height: $e_small;
+    line-height: $e_small;
 }
 .btn-md{
-    padding:0 $el_medium;
-    font-size: $el_medium;
-    height: $he_medium;
-    line-height: $he_medium;
+    padding:0 $f_medium;
+    font-size: $f_medium;
+    height: $e_medium;
+    line-height: $e_medium;
 }
 .btn-lg{
-    padding:0 $el_large;
-    font-size: $el_large;
-    height: $he_large;
-    line-height: $he_large;
+    padding:0 $f_large;
+    font-size: $f_large;
+    height: $e_large;
+    line-height: $e_large;
 }
 /*button group*/
 .btn-group .btn{
