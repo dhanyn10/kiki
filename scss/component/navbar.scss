@@ -1,27 +1,26 @@
 @import "../config";
 
 .nav{
-    position:relative;
+    position: relative;
     display: table;
-    width:100%;
-    clear:both;
+    width: 100%;
+    clear: both;
 }
 .navbar{
-    display: inline-flex;
     list-style:none;
     margin:0;
     padding:0;
 }
 .navnav li{
-    float:left;
+    float: left;
 }
 .right{
-    float:right;
+    float: right;
 }
 .nav-item{
-    float:left;
+    float: left;
     padding: 0 10px;
-    color:#74777a;
+    color: #74777a;
 }
 .nav.text-white li{
     color: white;
@@ -36,7 +35,10 @@
 {
     $nsize : nth($c, 1);//sm, md, lg
     $val  : nth($c, 2);
-
+    .nav-g-#{$nsize} .navbar
+    {
+        display: inline-flex;
+    }
     .nav-#{$nsize}
     {
         font-size: nth($val, 1);

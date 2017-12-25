@@ -6,7 +6,6 @@
 }
 
 .navbar {
-  display: inline-flex;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -37,6 +36,10 @@
 }
 
 /*navbar*/
+.nav-g-sm .navbar {
+  display: inline-flex;
+}
+
 .nav-sm {
   font-size: 12px;
   min-height: 38px;
@@ -63,6 +66,10 @@
   font-weight: bold;
 }
 
+.nav-g-md .navbar {
+  display: inline-flex;
+}
+
 .nav-md {
   font-size: 16px;
   min-height: 50px;
@@ -87,6 +94,10 @@
   padding: 0 0.5rem;
   line-height: 36px;
   font-weight: bold;
+}
+
+.nav-g-lg .navbar {
+  display: inline-flex;
 }
 
 .nav-lg {
