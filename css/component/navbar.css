@@ -3,16 +3,11 @@
   display: table;
   width: 100%;
   clear: both;
+  box-sizing: border-box;
 }
 
 .navbar {
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navnav li {
-  float: left;
 }
 
 .right {
@@ -29,13 +24,22 @@
   color: white;
 }
 
-.brand {
-  display: inline-flex;
-  vertical-align: middle;
-  padding: 0 0.5rem;
+/*navbar*/
+.nav-sm {
+  padding: 0 6px;
 }
 
-/*navbar*/
+.nav-sm .brand {
+  display: inline-flex;
+  vertical-align: middle;
+  padding-right: 0 6px;
+}
+
+.nav-sm .navnav li {
+  float: left;
+  padding: 0 4px;
+}
+
 .nav-g-sm .navbar {
   display: inline-flex;
 }
@@ -66,6 +70,21 @@
   font-weight: bold;
 }
 
+.nav-md {
+  padding: 0 8px;
+}
+
+.nav-md .brand {
+  display: inline-flex;
+  vertical-align: middle;
+  padding-right: 0 8px;
+}
+
+.nav-md .navnav li {
+  float: left;
+  padding: 0 5.33333px;
+}
+
 .nav-g-md .navbar {
   display: inline-flex;
 }
@@ -94,6 +113,21 @@
   padding: 0 0.5rem;
   line-height: 36px;
   font-weight: bold;
+}
+
+.nav-lg {
+  padding: 0 10px;
+}
+
+.nav-lg .brand {
+  display: inline-flex;
+  vertical-align: middle;
+  padding-right: 0 10px;
+}
+
+.nav-lg .navnav li {
+  float: left;
+  padding: 0 6.66667px;
 }
 
 .nav-g-lg .navbar {
