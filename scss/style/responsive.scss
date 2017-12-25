@@ -1,0 +1,30 @@
+@import "../config";
+@import "../function";
+
+@each $s in $size
+{
+    $nsize  : nth($s, 1);
+    $nval   : nth($s, 2);
+
+    @media (max-width: nth($nval, 4))
+    {
+        /*component - navigation*/
+        .nav-g-#{$nsize} .right{
+            float: none;
+        }
+        .nav-g-#{$nsize} .nav-item{
+            display: block;
+            border: 0;
+        }
+        .nav-g-#{$nsize} .navnav li{
+            float:none;
+            display:block;
+        }
+        /* style - grid */
+        @include multiclassnumbered (12, 'g-'+$nsize)
+        {
+            display: block;
+            width: 100%;
+        }
+    }
+}
