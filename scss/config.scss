@@ -1,7 +1,5 @@
-$f_small   : 12px;
-$f_medium  : 16px;
-$f_large   : 20px;
-
-$e_small   : 30px;
-$e_medium  : 36px;
-$e_large   : 42px;
+$size : (
+    sm (12, 30),
+    md (16, 36),
+    lg (20, 42)
+);
