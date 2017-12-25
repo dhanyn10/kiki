@@ -1,3 +1,4 @@
+@import "../function";
 /* reset css */
 *{
   font-family:"Arial";
@@ -40,16 +41,6 @@ blockquote > .footer{
 }
 
 /*jumper general*/
-@mixin multiclassnumbered($length, $classname){
-    $loop : '';
-    @for $i from 1 through $length {
-        $loop : $loop + '.' + $classname + '-' + $i + ',';
-    }
-    #{$loop} {
-        @content;
-    }
-}
-
 @include multiclassnumbered(6, jumper){
     display: block;
 }
