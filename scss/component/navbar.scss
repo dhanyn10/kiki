@@ -1,3 +1,5 @@
+@import "../config";
+
 .nav{
     position:relative;
     display: table;
@@ -29,42 +31,37 @@
     vertical-align: middle;
     padding: 0 0.5rem;
 }
-$navbarcontent :(
-    sm (12px,38px),
-    md (14px,50px),
-    lg (16px,62px)
-);
 /*navbar*/
-@each $c in $navbarcontent
+@each $c in $size
 {
-    $size : nth($c, 1);//sm, md, lg
+    $nsize : nth($c, 1);//sm, md, lg
     $val  : nth($c, 2);
 
-    .nav-#{$size} //sm, md, lg
+    .nav-#{$nsize}
     {
         font-size: nth($val, 1);
-        min-height: nth($val, 2);
+        min-height: nth($val, 3);
     }
-    .nav-#{$size} .nav-item
+    .nav-#{$nsize} .nav-item
     {
-        line-height: nth($val, 2);
-        height: nth($val, 2);
+        line-height: nth($val, 3);
+        height: nth($val, 3);
     }
-    .nav-#{$size} .nav-link
+    .nav-#{$nsize} .nav-link
     {
         font-size: nth($val, 1);
     }
-    .nav-#{$size} .nav-brand-img
+    .nav-#{$nsize} .nav-brand-img
     {
-        $valimg : nth($val, 2) - 14;
+        $valimg : nth($val, 3) - 14;
         width: $valimg;
         height: $valimg;
     }
-    .nav-#{$size} .nav-brand-text
+    .nav-#{$nsize} .nav-brand-text
     {
         font-size: nth($val, 1);
         padding: 0 0.5rem;
-        line-height: nth($val, 2) - 14;
+        line-height: nth($val, 3) - 14;
         font-weight: bold;
     }
 }
