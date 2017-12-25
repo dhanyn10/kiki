@@ -16,3 +16,12 @@
        -moz-border-radius: $val;
             border-radius: $val;
 }
+@mixin multiclassnumbered($length, $classname){
+    $loop : '';
+    @for $i from 1 through $length {
+        $loop : $loop + '.' + $classname + '-' + $i + ',';
+    }
+    #{$loop} {
+        @content;
+    }
+}
