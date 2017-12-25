@@ -64,7 +64,7 @@
 }
 
 .nav-md {
-  font-size: 14px;
+  font-size: 16px;
   min-height: 50px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .nav-md .nav-link {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .nav-md .nav-brand-img {
@@ -83,14 +83,14 @@
 }
 
 .nav-md .nav-brand-text {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 0.5rem;
   line-height: 36px;
   font-weight: bold;
 }
 
 .nav-lg {
-  font-size: 16px;
+  font-size: 20px;
   min-height: 62px;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .nav-lg .nav-link {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .nav-lg .nav-brand-img {
@@ -109,7 +109,7 @@
 }
 
 .nav-lg .nav-brand-text {
-  font-size: 16px;
+  font-size: 20px;
   padding: 0 0.5rem;
   line-height: 48px;
   font-weight: bold;
