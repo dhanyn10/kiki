@@ -13,14 +13,6 @@
 .right{
     float: right;
 }
-.nav-item{
-    float: left;
-    padding: 0 10px;
-    color: #74777a;
-}
-.nav.text-white li{
-    color: white;
-}
 /*navbar*/
 @each $c in $size
 {
