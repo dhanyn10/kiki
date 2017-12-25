@@ -16,6 +16,13 @@
        -moz-border-radius: $val;
             border-radius: $val;
 }
+@mixin flexdirection($val)
+{
+    -webkit-flex-direction: $val;
+       -moz-flex-direction: $val;
+            flex-direction: $val;
+}
+
 @mixin multiclassnumbered($length, $classname){
     $loop : '';
     @for $i from 1 through $length {
