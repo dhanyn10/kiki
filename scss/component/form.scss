@@ -1,14 +1,13 @@
 @import "../config";
 @import "../function";
 
-.form-sm{
-    font-size: $f_small;
-}
-.form-md{
-    font-size: $f_medium;
-}
-.form-lg{
-    font-size: $f_large;
+@each $formsize in $size //form size
+{
+    $sizeval : nth($formsize, 2);
+    .form-#{nth($formsize, 1)}
+    {
+        font-size: nth($sizeval, 1)+px;
+    }
 }
 .form-wrap{
     padding: 0.4rem;

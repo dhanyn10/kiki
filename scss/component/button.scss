@@ -18,23 +18,16 @@
 }
 
 /*button size*/
-.btn-sm{
-    padding:0 $f_small;
-    font-size: $f_small;
-    height: $e_small;
-    line-height: $e_small;
-}
-.btn-md{
-    padding:0 $f_medium;
-    font-size: $f_medium;
-    height: $e_medium;
-    line-height: $e_medium;
-}
-.btn-lg{
-    padding:0 $f_large;
-    font-size: $f_large;
-    height: $e_large;
-    line-height: $e_large;
+@each $btnsize in $size
+{
+    $sizeval : nth($btnsize, 2);
+    .btn-#{nth($btnsize, 1)}
+    {
+        padding:0 nth($sizeval, 1)+px;
+        font-size: nth($sizeval, 1)+px;
+        height: nth($sizeval, 2)+px;
+        line-height: nth($sizeval, 2)+px;
+    }
 }
 /*button group*/
 .btn-group .btn{

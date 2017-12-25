@@ -4,18 +4,8 @@
 
 /*table size*/
 .table.table-sm {
-  line-height: 30px;
   font-size: 12px;
-}
-
-.table.table-md {
-  line-height: 36px;
-  font-size: 16px;
-}
-
-.table.table-lg {
-  line-height: 42px;
-  font-size: 20px;
+  line-height: 30px;
 }
 
 .table.table-sm th,
@@ -23,9 +13,19 @@
   padding: 0 12px;
 }
 
+.table.table-md {
+  font-size: 16px;
+  line-height: 36px;
+}
+
 .table.table-md th,
 .table.table-md td {
   padding: 0 16px;
+}
+
+.table.table-lg {
+  font-size: 20px;
+  line-height: 42px;
 }
 
 .table.table-lg th,

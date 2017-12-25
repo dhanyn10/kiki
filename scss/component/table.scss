@@ -4,29 +4,19 @@
     border-collapse: collapse;
 }
 /*table size*/
-.table.table-sm{
-    line-height: $e_small;
-    font-size: $f_small;
-}
-.table.table-md{
-    line-height: $e_medium;
-    font-size: $f_medium;
-}
-.table.table-lg{
-    line-height: $e_large;
-    font-size: $f_large;
-}
-.table.table-sm th,
-.table.table-sm td{
-    padding: 0 $f_small;
-}
-.table.table-md th,
-.table.table-md td{
-    padding: 0 $f_medium;
-}
-.table.table-lg th,
-.table.table-lg td{
-    padding: 0 $f_large;
+@each $tsize in $size
+{
+    $sizeval : nth($tsize, 2);
+    .table.table-#{nth($tsize, 1)}
+    {
+        font-size: nth($sizeval, 1)+px;
+        line-height: nth($sizeval, 2)+px;
+    }
+    .table.table-#{nth($tsize, 1)} th,
+    .table.table-#{nth($tsize, 1)} td
+    {
+        padding: 0 nth($sizeval, 1)+px;
+    }
 }
 .table thead th{
     border-bottom: 2px solid #EEEEEE;
