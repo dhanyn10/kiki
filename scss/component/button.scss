@@ -1,15 +1,5 @@
-@mixin boxshadow($val)
-{
-    -webkit-box-shadow: $val;
-       -moz-box-shadow: $val;
-            box-shadow: $val;
-}
-@mixin borderradius($val)
-{
-    -webkit-border-radius: $val;
-       -moz-border-radius: $val;
-            border-radius: $val;
-}
+@import "../function";
+
 /*global button*/
 .btn{
     display: inline-block;
