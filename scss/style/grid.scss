@@ -1,6 +1,6 @@
 @import "../function";
 
-$grid   : ("xs", "sm", "md", "lg");
+$grid   : ("sm", "md", "lg");
 $width  : (8.33, 16.66, 25, 33.33, 41.66, 50, 58.33, 66.66, 75, 83.33, 91.66, 100);
 
 $classname  : "";
@@ -14,7 +14,7 @@ $classname  : "";
 #{$classname}
 {
     float: left;
-    padding: 0.5rem;
+    padding: 0 0.5rem;
     @include boxsizing(border-box);
 }
 $number : 1;
