@@ -6,7 +6,7 @@
     $sizeval : nth($formsize, 2);
     .form-#{nth($formsize, 1)}
     {
-        font-size: nth($sizeval, 1)+px;
+        font-size: nth($sizeval, 1);
     }
 }
 .form-wrap{

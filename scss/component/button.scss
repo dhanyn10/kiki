@@ -23,10 +23,10 @@
     $sizeval : nth($btnsize, 2);
     .btn-#{nth($btnsize, 1)}
     {
-        padding:0 nth($sizeval, 1)+px;
-        font-size: nth($sizeval, 1)+px;
-        height: nth($sizeval, 2)+px;
-        line-height: nth($sizeval, 2)+px;
+        padding:0 nth($sizeval, 1);
+        font-size: nth($sizeval, 1);
+        height: nth($sizeval, 2);
+        line-height: nth($sizeval, 2);
     }
 }
 /*button group*/

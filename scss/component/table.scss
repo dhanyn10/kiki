@@ -9,13 +9,13 @@
     $sizeval : nth($tsize, 2);
     .table.table-#{nth($tsize, 1)}
     {
-        font-size: nth($sizeval, 1)+px;
-        line-height: nth($sizeval, 2)+px;
+        font-size: nth($sizeval, 1);
+        line-height: nth($sizeval, 2);
     }
     .table.table-#{nth($tsize, 1)} th,
     .table.table-#{nth($tsize, 1)} td
     {
-        padding: 0 nth($sizeval, 1)+px;
+        padding: 0 nth($sizeval, 1);
     }
 }
 .table thead th{
