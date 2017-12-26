@@ -22,7 +22,13 @@
        -moz-flex-direction: $val;
             flex-direction: $val;
 }
-
+@mixin userselect($val)
+{
+    -webkit-user-select: $val;
+       -moz-user-select: $val;
+        -ms-user-select: $val;
+            user-select: $val;
+}
 @mixin multiclassnumbered($length, $classname){
     $loop : '';
     @for $i from 1 through $length {
