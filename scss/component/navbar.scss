@@ -9,6 +9,9 @@
     @include boxsizing(border-box);
     @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
 }
+.nav .btn{
+    margin: auto 0;
+}
 .navbar{
     list-style:none;
 }
