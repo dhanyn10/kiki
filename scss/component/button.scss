@@ -58,17 +58,17 @@
     margin:2px 0;
 }
 
-@each $btn in $coloreffect
+@each $btn in $materialcolor
 {
     $name   : nth($btn, 1);
-    $name   : str-slice($name, 2);
+    $name   : str-slice($name, 2); //ex mwhite -> white
     $color  : nth($btn, 2);
     .btn.bg-#{$name}:hover
     {
-        background: nth($color, 1);
+        background: nth($color, 2);
     }
     .btn.bg-#{$name}:active
     {
-        background: nth($color, 2);
+        background: nth($color, 3);
     }
 }
