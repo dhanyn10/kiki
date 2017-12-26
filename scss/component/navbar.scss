@@ -26,11 +26,10 @@ $n : 0;
     .nav-#{$nsize} .brand{
         display: inline-flex;
         vertical-align: middle;
-        padding-right: 0 nth($val, 1)/2;
     }
     .nav-#{$nsize} .navnav li{
         float: left;
-        padding: 0 nth($val, 1)/3;
+        padding: 0 nth($val, 1)/2;
     }
     .nav-g-#{$nsize} .navbar
     {

@@ -8,6 +8,9 @@
 
     @media (max-width: nth($nval, 4))
     {
+        .nav-g-#{$nsize}{
+            padding-top: nth($nval, 1)/2;
+        }
         .nav-g-#{$nsize} .navbar{
             display: block;
         }
@@ -22,6 +25,7 @@
         .nav-g-#{$nsize} .navnav li{
             float:none;
             display:block;
+            padding: 0;
         }
         /* style - grid */
         @include multiclassnumbered (12, 'g-'+$nsize)

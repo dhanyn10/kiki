@@ -22,12 +22,11 @@
 .nav-sm .brand {
   display: inline-flex;
   vertical-align: middle;
-  padding-right: 0 6px;
 }
 
 .nav-sm .navnav li {
   float: left;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .nav-g-sm .navbar {
@@ -67,12 +66,11 @@
 .nav-md .brand {
   display: inline-flex;
   vertical-align: middle;
-  padding-right: 0 8px;
 }
 
 .nav-md .navnav li {
   float: left;
-  padding: 0 5.33333px;
+  padding: 0 8px;
 }
 
 .nav-g-md .navbar {
@@ -112,12 +110,11 @@
 .nav-lg .brand {
   display: inline-flex;
   vertical-align: middle;
-  padding-right: 0 10px;
 }
 
 .nav-lg .navnav li {
   float: left;
-  padding: 0 6.66667px;
+  padding: 0 10px;
 }
 
 .nav-g-lg .navbar {
