@@ -1,4 +1,6 @@
+@import "../config";
 @import "../function";
+
 /* reset css */
 *{
   font-family:"Arial";
@@ -62,40 +64,16 @@ $jumpermargin: 1rem;
     float: right;
 }
 
-$colormaterial : (
-    ("white"        , "ffffff"),
-    ("dark"         , "424242"),
-    ("red"          , "f44336"),
-    ("pink"         , "e91e63"),
-    ("purple"       , "9c27b0"),
-    ("deep-purple"  , "673AB7"),
-    ("indigo"       , "3F51B5"),
-    ("blue"         , "2196F3"),
-    ("light-blue"   , "03A9F4"),
-    ("cyan"         , "00BCD4"),
-    ("teal"         , "009688"),
-    ("green"        , "4CAF50"),
-    ("lightgreen"   , "8BC34A"),
-    ("lime"         , "CDDC39"),
-    ("yellow"       , "FFEB3B"),
-    ("amber"        , "FFC107"),
-    ("orange"       , "FF9800"),
-    ("deeporange"   , "FF5722"),
-    ("brown"        , "795548"),
-    ("grey"         , "9E9E9E"),
-    ("bluegrey"     , "607D8B")
-);
 /*global background*/
-@each $color in $colormaterial {
-    $bgcolor : "#"+nth($color, 2);
-    .bg-#{nth($color, 1)}{
-        background: #{$bgcolor};
+@each $color in $materialcolor {
+    $getcolor   : nth($color, 1);
+    $colorname  : str-slice($getcolor, 2);
+    $getvalue   : nth($color, 2);
+    $colorvalue : nth($getvalue, 1);
+    .bg-#{nth($colorname, 1)}{
+        background: #{$colorvalue};
     }
-}
-/*global text color*/
-@each $color in $colormaterial {
-    $textcolor : "#"+nth($color, 2);
-    .text-#{nth($color, 1)}{
-        color: #{$textcolor};
+    .text-#{nth($colorname, 1)}{
+        background: #{$colorvalue};
     }
 }
