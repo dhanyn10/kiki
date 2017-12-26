@@ -1,12 +1,16 @@
 /*global button*/
 .btn {
-  display: inline-block;
-  margin: 2px;
-  border: 0;
-  cursor: pointer;
   -webkit-box-shadow: 0px 1px 4px -1px black;
   -moz-box-shadow: 0px 1px 4px -1px black;
   box-shadow: 0px 1px 4px -1px black;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 2px;
+  border: 0;
 }
 
 /*button effect*/
@@ -22,24 +26,24 @@
 
 /*button size*/
 .btn-sm {
+  height: 28px;
   padding: 0 12px;
   font-size: 12px;
-  height: 30px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .btn-md {
+  height: 34px;
   padding: 0 16px;
   font-size: 16px;
-  height: 36px;
-  line-height: 36px;
+  line-height: 34px;
 }
 
 .btn-lg {
+  height: 40px;
   padding: 0 20px;
   font-size: 20px;
-  height: 42px;
-  line-height: 42px;
+  line-height: 40px;
 }
 
 /*button group*/

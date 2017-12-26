@@ -3,11 +3,12 @@
 
 /*global button*/
 .btn{
+    @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
+    @include userselect(none);
     display: inline-block;
+    cursor: pointer;
     margin:2px;
     border:0;
-    cursor: pointer;
-    @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
 }
 /*button effect*/
 .btn:focus{
@@ -23,10 +24,10 @@
     $sizeval : nth($btnsize, 2);
     .btn-#{nth($btnsize, 1)}
     {
-        padding:0 nth($sizeval, 1);
+        height: nth($sizeval, 2)-2;
+        padding: 0 nth($sizeval, 1);
         font-size: nth($sizeval, 1);
-        height: nth($sizeval, 2);
-        line-height: nth($sizeval, 2);
+        line-height: nth($sizeval, 2)-2;
     }
 }
 /*button group*/
