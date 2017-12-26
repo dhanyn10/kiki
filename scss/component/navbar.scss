@@ -14,6 +14,7 @@
     float: right;
 }
 /*navbar*/
+$n : 0;
 @each $c in $size
 {
     $nsize : nth($c, 1);//sm, md, lg
@@ -51,7 +52,7 @@
     }
     .nav-#{$nsize} .nav-brand-img
     {
-        $valimg : nth($val, 3) - 14;
+        $valimg : nth($val, 3) - (14 + ($n * 2));
         width: $valimg;
         height: $valimg;
     }
@@ -62,4 +63,5 @@
         line-height: nth($val, 3) - 14;
         font-weight: bold;
     }
+    $n : $n + 1;
 }
