@@ -104,7 +104,7 @@ blockquote > .footer {
 }
 
 .text-white {
-  background: #ffffff;
+  color: #ffffff;
 }
 
 .bg-dark {
@@ -112,7 +112,7 @@ blockquote > .footer {
 }
 
 .text-dark {
-  background: #424242;
+  color: #424242;
 }
 
 .bg-red {
@@ -120,7 +120,7 @@ blockquote > .footer {
 }
 
 .text-red {
-  background: #f44336;
+  color: #f44336;
 }
 
 .bg-pink {
@@ -128,7 +128,7 @@ blockquote > .footer {
 }
 
 .text-pink {
-  background: #e91e63;
+  color: #e91e63;
 }
 
 .bg-purple {
@@ -136,7 +136,7 @@ blockquote > .footer {
 }
 
 .text-purple {
-  background: #9c27b0;
+  color: #9c27b0;
 }
 
 .bg-deep-purple {
@@ -144,7 +144,7 @@ blockquote > .footer {
 }
 
 .text-deep-purple {
-  background: #673AB7;
+  color: #673AB7;
 }
 
 .bg-indigo {
@@ -152,7 +152,7 @@ blockquote > .footer {
 }
 
 .text-indigo {
-  background: #3F51B5;
+  color: #3F51B5;
 }
 
 .bg-blue {
@@ -160,7 +160,7 @@ blockquote > .footer {
 }
 
 .text-blue {
-  background: #2196F3;
+  color: #2196F3;
 }
 
 .bg-light-blue {
@@ -168,7 +168,7 @@ blockquote > .footer {
 }
 
 .text-light-blue {
-  background: #03A9F4;
+  color: #03A9F4;
 }
 
 .bg-cyan {
@@ -176,7 +176,7 @@ blockquote > .footer {
 }
 
 .text-cyan {
-  background: #00BCD4;
+  color: #00BCD4;
 }
 
 .bg-teal {
@@ -184,7 +184,7 @@ blockquote > .footer {
 }
 
 .text-teal {
-  background: #009688;
+  color: #009688;
 }
 
 .bg-green {
@@ -192,7 +192,7 @@ blockquote > .footer {
 }
 
 .text-green {
-  background: #4CAF50;
+  color: #4CAF50;
 }
 
 .bg-light-green {
@@ -200,7 +200,7 @@ blockquote > .footer {
 }
 
 .text-light-green {
-  background: #8BC34A;
+  color: #8BC34A;
 }
 
 .bg-lime {
@@ -208,7 +208,7 @@ blockquote > .footer {
 }
 
 .text-lime {
-  background: #CDDC39;
+  color: #CDDC39;
 }
 
 .bg-yellow {
@@ -216,7 +216,7 @@ blockquote > .footer {
 }
 
 .text-yellow {
-  background: #FFEB3B;
+  color: #FFEB3B;
 }
 
 .bg-amber {
@@ -224,7 +224,7 @@ blockquote > .footer {
 }
 
 .text-amber {
-  background: #FFC107;
+  color: #FFC107;
 }
 
 .bg-orange {
@@ -232,7 +232,7 @@ blockquote > .footer {
 }
 
 .text-orange {
-  background: #FF9800;
+  color: #FF9800;
 }
 
 .bg-deep-orange {
@@ -240,7 +240,7 @@ blockquote > .footer {
 }
 
 .text-deep-orange {
-  background: #FF5722;
+  color: #FF5722;
 }
 
 .bg-brown {
@@ -248,7 +248,7 @@ blockquote > .footer {
 }
 
 .text-brown {
-  background: #795548;
+  color: #795548;
 }
 
 .bg-grey {
@@ -256,7 +256,7 @@ blockquote > .footer {
 }
 
 .text-grey {
-  background: #9E9E9E;
+  color: #9E9E9E;
 }
 
 .bg-blue-grey {
@@ -264,5 +264,5 @@ blockquote > .footer {
 }
 
 .text-blue-grey {
-  background: #607D8B;
+  color: #607D8B;
 }
