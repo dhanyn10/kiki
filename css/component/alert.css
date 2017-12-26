@@ -1,12 +1,76 @@
-.alert{
-  display:block;
-  padding:16px;
-  font-size:14px;
+.alert {
+  -webkit-box-shadow: 0px 1px 4px -1px black;
+  -moz-box-shadow: 0px 1px 4px -1px black;
+  box-shadow: 0px 1px 4px -1px black;
+  position: relative;
+  display: block;
 }
-.alert > .title{
-  font-weight: 600;
-  line-height: 30px;
+
+.alert.alert-sm {
+  line-height: 38px;
+  padding: 0 12px;
+  font-size: 12px;
 }
-.alert > .text{
-  line-height: 24px;
+
+.alert.alert-sm > .alert-close {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.alert.alert-sm > .alert-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.alert.alert-md {
+  line-height: 50px;
+  padding: 0 16px;
+  font-size: 16px;
+}
+
+.alert.alert-md > .alert-close {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 16px;
+}
+
+.alert.alert-md > .alert-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.alert.alert-lg {
+  line-height: 62px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.alert.alert-lg > .alert-close {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.alert.alert-lg > .alert-close:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
