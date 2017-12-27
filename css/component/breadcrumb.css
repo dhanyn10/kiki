@@ -1,27 +1,69 @@
-.breadcrumb{
-  list-style:none;
-  padding: 5px 8px;
-  font-size:16px;
-  line-height: 40px;
+.breadcrumb.breadcrumb-sm {
+  list-style: none;
+  padding: 4px 6px;
+  font-size: 12px;
+  line-height: 30px;
 }
-.breadcrumb li{
-  display:inline-block;
+
+.breadcrumb.breadcrumb-sm li:after {
+  content: "/";
+  font-weight: bold;
+  padding: 12px;
 }
-.breadcrumb > li > a{
-  text-decoration: underline;
-  color:inherit;
-}
-.breadcrumb li:after{
-  content:" \\";
-  font-weight:bold;
-}
-.breadcrumb.dash li:after{
+
+.breadcrumb.dash li:after {
   content: " -";
 }
-.breadcrumb li:last-child:after{
-  content:"";
+
+.breadcrumb.breadcrumb-md {
+  list-style: none;
+  padding: 6px 8px;
+  font-size: 16px;
+  line-height: 36px;
 }
-.breadcrumb li:last-child a{
-  color:inherit;
+
+.breadcrumb.breadcrumb-md li:after {
+  content: "/";
+  font-weight: bold;
+  padding: 16px;
+}
+
+.breadcrumb.dash li:after {
+  content: " -";
+}
+
+.breadcrumb.breadcrumb-lg {
+  list-style: none;
+  padding: 8px 10px;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.breadcrumb.breadcrumb-lg li:after {
+  content: "/";
+  font-weight: bold;
+  padding: 20px;
+}
+
+.breadcrumb.dash li:after {
+  content: " -";
+}
+
+.breadcrumb li {
+  display: inline-block;
+}
+
+.breadcrumb > li > a {
+  text-decoration: none;
+}
+
+.breadcrumb li:last-child:after {
+  content: "";
+}
+
+.breadcrumb li:after,
+.breadcrumb.dash li:after,
+.breadcrumb li:last-child a {
+  color: rgba(0, 0, 0, 0.38);
   text-decoration: none;
 }
