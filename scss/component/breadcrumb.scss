@@ -16,9 +16,6 @@
         font-weight:bold;
         padding: nth($nval, 1);
     }
-    .breadcrumb.dash li:after{
-        content: " -";
-    }
 }
 .breadcrumb li{
     display:inline-block;
@@ -30,7 +27,6 @@
     content:"";
 }
 .breadcrumb li:after,
-.breadcrumb.dash li:after,
 .breadcrumb li:last-child a{
     color:rgba(0,0,0,.38);
     text-decoration: none;
