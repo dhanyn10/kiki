@@ -1,8 +1,8 @@
 .breadcrumb.breadcrumb-sm {
   list-style: none;
-  padding: 4px 6px;
+  padding: 0 18px;
   font-size: 12px;
-  line-height: 30px;
+  line-height: 45px;
 }
 
 .breadcrumb.breadcrumb-sm li:after {
@@ -17,9 +17,9 @@
 
 .breadcrumb.breadcrumb-md {
   list-style: none;
-  padding: 6px 8px;
+  padding: 0 24px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 54px;
 }
 
 .breadcrumb.breadcrumb-md li:after {
@@ -34,9 +34,9 @@
 
 .breadcrumb.breadcrumb-lg {
   list-style: none;
-  padding: 8px 10px;
+  padding: 0 30px;
   font-size: 20px;
-  line-height: 42px;
+  line-height: 63px;
 }
 
 .breadcrumb.breadcrumb-lg li:after {

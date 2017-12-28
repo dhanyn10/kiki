@@ -7,9 +7,9 @@
 
     .breadcrumb.breadcrumb-#{$nsize}{
         list-style:none;
-        padding: (nth($nval, 1)/2 - 2) nth($nval, 1)/2;
+        padding: 0 (nth($nval, 1)*1.5);
         font-size:nth($nval, 1);
-        line-height: nth($nval, 2);
+        line-height: nth($nval, 2)*1.5;
     }    
     .breadcrumb.breadcrumb-#{$nsize} li:after{
         content:"/";
