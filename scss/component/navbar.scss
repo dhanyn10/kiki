@@ -9,9 +9,6 @@
     @include boxsizing(border-box);
     @include boxshadow(0px 1px 4px -1px rgba(0,0,0,1));
 }
-.nav .btn{
-    margin: auto 0;
-}
 .navbar{
     list-style:none;
 }
@@ -32,6 +29,22 @@ $n : 0;
         padding-right: 0 nth($val, 1)/2;
         vertical-align: middle;
         display: inline-flex;
+    }
+    .nav-#{$nsize} .nav-brand-img
+    {
+        $valimg : nth($val, 3) - (14 + ($n * 2));
+        width: $valimg;
+        height: $valimg;
+    }
+    .nav-#{$nsize} .nav-brand-text
+    {
+        font-size: nth($val, 1);
+        padding: 0 0.5rem;
+        line-height: nth($val, 3) - 14;
+        font-weight: bold;
+    }
+    .nav-#{$nsize} .btn{
+        margin: auto nth($val, 1)/2;
     }
     .nav-#{$nsize} .navnav li{
         padding: 0 nth($val, 1);
@@ -55,19 +68,6 @@ $n : 0;
     .nav-#{$nsize} .nav-link
     {
         font-size: nth($val, 1);
-    }
-    .nav-#{$nsize} .nav-brand-img
-    {
-        $valimg : nth($val, 3) - (14 + ($n * 2));
-        width: $valimg;
-        height: $valimg;
-    }
-    .nav-#{$nsize} .nav-brand-text
-    {
-        font-size: nth($val, 1);
-        padding: 0 0.5rem;
-        line-height: nth($val, 3) - 14;
-        font-weight: bold;
     }
     $n : $n + 1;
 }
