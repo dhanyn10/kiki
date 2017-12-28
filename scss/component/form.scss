@@ -1,14 +1,6 @@
 @import "../config";
 @import "../function";
 
-@each $formsize in $size //form size
-{
-    $sizeval : nth($formsize, 2);
-    .form-#{nth($formsize, 1)}
-    {
-        font-size: nth($sizeval, 1);
-    }
-}
 .form-wrap{
     padding: 0.4rem;
 }
@@ -23,50 +15,25 @@ textarea.form{
     box-shadow: none;
     padding: 0 0.5rem;
 }
-input[type='text'].form.form-sm,
-select.form.form-sm{
-    height: 1.6rem;
-}
-input[type='text'].form.form-md,
-select.form.form-md{
-    height: 2.0rem;
-}
-input[type='text'].form.form-lg,
-select.form.form-lg{
-    height: 2.2rem;
-}
-
-input[type='radio'].form,
-input[type='checkbox'].form{
-    position: relative;
-    margin-right:1rem;
-}
-input[type='radio'].form::before,
-input[type='checkbox'].form::before{
-    border: 1px solid #d1d1d1;
-    display: inline-block;
-    background:white;
-    position: absolute;
-    height: 0.8rem;
-    width: 0.8rem;
-    content: '';
-    left: -0.1rem;
-    top:-0.1rem;
-}
-input[type='radio'].form::before{
-    @include borderradius(100%);
-}
-input[type='checkbox'].form::before{
-    @include borderradius(4px);
-}
-input[type='radio'].form:hover::before,
-input[type='checkbox'].form:hover::before{
-    border: 1px solid #2196F3;
-}
-input[type='radio'].form:checked::before,
-input[type='checkbox'].form:checked::before{
-    background: #2196F3;
-}
-textarea.form{
-    height: 6rem;
+@each $input in $size
+{
+    $nsize  : nth($input, 1);
+    $nval   : nth($input, 2);
+    .form.form-#{$nsize} input[type='text'],
+    .form.form-#{$nsize} select{
+        height: nth($nval, 1)*2;
+    }
+    .form-#{nth($nsize, 1)}
+    {
+        font-size: nth($nval, 1);
+    }
+    .form-#{nth($nsize, 1)} textarea{
+        height: nth($nval, 2)*4;
+        padding: nth($nval, 1);
+    }   
+    input[type='radio'].form,
+    input[type='checkbox'].form{
+        position: relative;
+        margin-right:nth($nval, 1)*0.4;
+    }
 }
