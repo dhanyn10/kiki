@@ -14,7 +14,7 @@ textarea.form {
   border-radius: 4px;
   border: 1px solid #d1d1d1;
   box-shadow: none;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .form.form-sm input[type='text'],
@@ -28,7 +28,6 @@ textarea.form {
 
 .form-sm textarea {
   height: 120px;
-  padding: 12px;
 }
 
 input[type='radio'].form,
@@ -48,7 +47,6 @@ input[type='checkbox'].form {
 
 .form-md textarea {
   height: 144px;
-  padding: 16px;
 }
 
 input[type='radio'].form,
@@ -68,7 +66,6 @@ input[type='checkbox'].form {
 
 .form-lg textarea {
   height: 168px;
-  padding: 20px;
 }
 
 input[type='radio'].form,

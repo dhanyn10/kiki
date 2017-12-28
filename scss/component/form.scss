@@ -13,7 +13,7 @@ textarea.form{
     @include borderradius(4px);
     border: 1px solid #d1d1d1;
     box-shadow: none;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
 }
 @each $input in $size
 {
@@ -29,8 +29,7 @@ textarea.form{
     }
     .form-#{nth($nsize, 1)} textarea{
         height: nth($nval, 2)*4;
-        padding: nth($nval, 1);
-    }   
+    }
     input[type='radio'].form,
     input[type='checkbox'].form{
         position: relative;
