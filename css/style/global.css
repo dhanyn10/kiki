@@ -107,7 +107,8 @@ blockquote > .footer {
   background: #ffffff;
 }
 
-.text-white {
+.text-white,
+.text-white a {
   color: #ffffff;
 }
 
@@ -115,7 +116,8 @@ blockquote > .footer {
   background: #424242;
 }
 
-.text-dark {
+.text-dark,
+.text-dark a {
   color: #424242;
 }
 
@@ -123,7 +125,8 @@ blockquote > .footer {
   background: #f44336;
 }
 
-.text-red {
+.text-red,
+.text-red a {
   color: #f44336;
 }
 
@@ -131,7 +134,8 @@ blockquote > .footer {
   background: #e91e63;
 }
 
-.text-pink {
+.text-pink,
+.text-pink a {
   color: #e91e63;
 }
 
@@ -139,7 +143,8 @@ blockquote > .footer {
   background: #9c27b0;
 }
 
-.text-purple {
+.text-purple,
+.text-purple a {
   color: #9c27b0;
 }
 
@@ -147,7 +152,8 @@ blockquote > .footer {
   background: #673AB7;
 }
 
-.text-deep-purple {
+.text-deep-purple,
+.text-deep-purple a {
   color: #673AB7;
 }
 
@@ -155,7 +161,8 @@ blockquote > .footer {
   background: #3F51B5;
 }
 
-.text-indigo {
+.text-indigo,
+.text-indigo a {
   color: #3F51B5;
 }
 
@@ -163,7 +170,8 @@ blockquote > .footer {
   background: #2196F3;
 }
 
-.text-blue {
+.text-blue,
+.text-blue a {
   color: #2196F3;
 }
 
@@ -171,7 +179,8 @@ blockquote > .footer {
   background: #03A9F4;
 }
 
-.text-light-blue {
+.text-light-blue,
+.text-light-blue a {
   color: #03A9F4;
 }
 
@@ -179,7 +188,8 @@ blockquote > .footer {
   background: #00BCD4;
 }
 
-.text-cyan {
+.text-cyan,
+.text-cyan a {
   color: #00BCD4;
 }
 
@@ -187,7 +197,8 @@ blockquote > .footer {
   background: #009688;
 }
 
-.text-teal {
+.text-teal,
+.text-teal a {
   color: #009688;
 }
 
@@ -195,7 +206,8 @@ blockquote > .footer {
   background: #4CAF50;
 }
 
-.text-green {
+.text-green,
+.text-green a {
   color: #4CAF50;
 }
 
@@ -203,7 +215,8 @@ blockquote > .footer {
   background: #8BC34A;
 }
 
-.text-light-green {
+.text-light-green,
+.text-light-green a {
   color: #8BC34A;
 }
 
@@ -211,7 +224,8 @@ blockquote > .footer {
   background: #CDDC39;
 }
 
-.text-lime {
+.text-lime,
+.text-lime a {
   color: #CDDC39;
 }
 
@@ -219,7 +233,8 @@ blockquote > .footer {
   background: #FFEB3B;
 }
 
-.text-yellow {
+.text-yellow,
+.text-yellow a {
   color: #FFEB3B;
 }
 
@@ -227,7 +242,8 @@ blockquote > .footer {
   background: #FFC107;
 }
 
-.text-amber {
+.text-amber,
+.text-amber a {
   color: #FFC107;
 }
 
@@ -235,7 +251,8 @@ blockquote > .footer {
   background: #FF9800;
 }
 
-.text-orange {
+.text-orange,
+.text-orange a {
   color: #FF9800;
 }
 
@@ -243,7 +260,8 @@ blockquote > .footer {
   background: #FF5722;
 }
 
-.text-deep-orange {
+.text-deep-orange,
+.text-deep-orange a {
   color: #FF5722;
 }
 
@@ -251,7 +269,8 @@ blockquote > .footer {
   background: #795548;
 }
 
-.text-brown {
+.text-brown,
+.text-brown a {
   color: #795548;
 }
 
@@ -259,7 +278,8 @@ blockquote > .footer {
   background: #9E9E9E;
 }
 
-.text-grey {
+.text-grey,
+.text-grey a {
   color: #9E9E9E;
 }
 
@@ -267,6 +287,7 @@ blockquote > .footer {
   background: #607D8B;
 }
 
-.text-blue-grey {
+.text-blue-grey,
+.text-blue-grey a {
   color: #607D8B;
 }

@@ -77,7 +77,8 @@ $jumpermargin: 1rem;
     .bg-#{nth($colorname, 1)}{
         background: #{$colorvalue};
     }
-    .text-#{nth($colorname, 1)}{
+    .text-#{nth($colorname, 1)},
+    .text-#{nth($colorname, 1)} a{
         color: #{$colorvalue};
     }
 }
