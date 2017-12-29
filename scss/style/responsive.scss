@@ -8,6 +8,9 @@
 
     @media (max-width: nth($nval, 4))
     {
+        .container{
+            padding:0.1rem 10%;
+        }
         .nav-g-#{$nsize}{
             padding-top: nth($nval, 1)/2;
         }
