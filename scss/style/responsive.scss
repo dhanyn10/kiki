@@ -1,6 +1,8 @@
 @import "../config";
 @import "../function";
 
+$paddingcontainer : 0;
+$smallimportant : "!important";
 @each $s in $size
 {
     $nsize  : nth($s, 1);
@@ -9,7 +11,7 @@
     @media (max-width: nth($nval, 4))
     {
         .container{
-            padding:0.1rem 10%;
+            padding:2px (20 + 20 * $paddingcontainer)+px unquote($string: $smallimportant);
         }
         .nav-g-#{$nsize}{
             padding-top: nth($nval, 1)/2;
@@ -36,5 +38,7 @@
             display: block;
             width: 100%;
         }
+        $paddingcontainer : $paddingcontainer + 1.5;
+        $smallimportant : null;
     }
 }

@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   .container {
-    padding: 0.1rem 10%;
+    padding: 2px 20px !important;
   }
   .nav-g-sm {
     padding-top: 6px;
@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .container {
-    padding: 0.1rem 10%;
+    padding: 2px 50px;
   }
   .nav-g-md {
     padding-top: 8px;
@@ -60,7 +60,7 @@
 
 @media (max-width: 992px) {
   .container {
-    padding: 0.1rem 10%;
+    padding: 2px 80px;
   }
   .nav-g-lg {
     padding-top: 10px;
