@@ -13,6 +13,9 @@ $smallimportant : "!important";
         .container{
             padding:2px (20 + 20 * $paddingcontainer)+px unquote($string: $smallimportant);
         }
+        .container-fluid{
+            padding:2px (10 + 10 * $paddingcontainer)+px unquote($string: $smallimportant);
+        }
         .nav-g-#{$nsize}{
             padding-top: nth($nval, 1)/2;
         }
