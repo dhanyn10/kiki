@@ -1,7 +1,7 @@
 # Minini Framework
 
 Framework with MaterialUI color  
-![release](https://img.shields.io/badge/version-0.1.0--alpha-lightgrey.svg)
+![release](https://img.shields.io/badge/version-0.1.0--alpha.1-lightgrey.svg)
   
 ### Contribution
 this project is open contribution from everyone  
