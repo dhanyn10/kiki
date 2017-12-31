@@ -1,3 +1,6 @@
+/*
+* javascript for minini framework
+*/
 (function(){
     //alert
     jalert = document.getElementsByClassName("alert-close");
