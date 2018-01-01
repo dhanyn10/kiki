@@ -1,6 +1,6 @@
 {
   "name": "minini",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Pure CSS Framework with MaterialUI color",
   "main": "index.js",
   "directories": {
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "framework",
+    "css-framework",
     "minini",
     "material",
     "material-colors"
