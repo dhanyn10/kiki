@@ -3,7 +3,7 @@
 Framework with MaterialUI color  
 ![release](https://img.shields.io/badge/version-0.1.0--alpha.2-lightgrey.svg)
   
-### Contribution
+## Contribution
 this project is open contribution from everyone  
 
 ## How to Use
@@ -13,5 +13,5 @@ npm install minini
 ```  
 Or you can just look at test page
   
-### License
+## License
 this project is developed under [MIT License](https://github.com/dhanyn10/minini/blob/master/LICENSE)
