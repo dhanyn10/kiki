@@ -1,7 +1,7 @@
 {
   "name": "minini",
   "version": "0.1.0-alpha.2",
-  "description": "Pure CSS Framework with MaterialUI color",
+  "description": "Framework with MaterialUI color",
   "main": "index.js",
   "directories": {
     "test": "test"
