@@ -62,6 +62,19 @@ blockquote > .footer {
   margin-top: 0.5rem;
 }
 
+/*code and pre*/
+code {
+  background: #EEEEEE;
+  padding: 0 1rem;
+  display: inline-block;
+  line-height: 2.6rem;
+  border-radius: 4px;
+}
+
+pre > code {
+  display: block;
+}
+
 /*jumper general*/
 .jumper-1, .jumper-2, .jumper-3, .jumper-4, .jumper-5, .jumper-6 {
   display: block;
