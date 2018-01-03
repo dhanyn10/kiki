@@ -63,15 +63,20 @@ blockquote > .footer {
 }
 
 /*code and pre*/
-code {
+code,
+pre > code {
+  font-family: Courier New, Courier, monospace;
   background: #EEEEEE;
-  padding: 0 1rem;
   display: inline-block;
-  line-height: 2.6rem;
   border-radius: 4px;
 }
 
+code {
+  padding: 0.5rem 0.8rem;
+}
+
 pre > code {
+  padding: 1rem 1.4rem;
   display: block;
 }
 
