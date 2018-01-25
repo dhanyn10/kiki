@@ -29,6 +29,41 @@ body {
   font-size: 16px;
 }
 
+/*blockquote*/
+blockquote {
+  display: block;
+  width: 100%;
+  border-left: 0.4rem solid #212121;
+  background: #FAFAFA;
+  color: #212121;
+  padding: 1.4rem;
+}
+
+blockquote > .footer {
+  display: block;
+  color: #616161;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+/*code and pre*/
+code,
+pre > code {
+  font-family: Courier New, Courier, monospace;
+  background: #EEEEEE;
+  border-radius: 4px;
+}
+
+code {
+  padding: 0.5rem 0.8rem;
+  display: inline-block;
+}
+
+pre > code {
+  padding: 1rem 1.4rem;
+  display: block;
+}
+
 ul,
 ol {
   padding: 0 1.6rem;
@@ -64,41 +99,6 @@ hr {
   margin: 1rem 0;
   border-style: solid;
   border-color: #d1d1d1;
-}
-
-/*blockquote*/
-blockquote {
-  display: block;
-  width: 100%;
-  border-left: 0.4rem solid #212121;
-  background: #FAFAFA;
-  color: #212121;
-  padding: 1.4rem;
-}
-
-blockquote > .footer {
-  display: block;
-  color: #616161;
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-}
-
-/*code and pre*/
-code,
-pre > code {
-  font-family: Courier New, Courier, monospace;
-  background: #EEEEEE;
-  border-radius: 4px;
-}
-
-code {
-  padding: 0.5rem 0.8rem;
-  display: inline-block;
-}
-
-pre > code {
-  padding: 1rem 1.4rem;
-  display: block;
 }
 
 /*jumper general*/
