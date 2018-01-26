@@ -1,8 +1,8 @@
-<div style="text-align:center">
+<div align="center">
 
 # Minini Framework
 Framework with MaterialUI color  
-![release](https://img.shields.io/badge/version-0.1.0-lightgrey.svg)
+![release](https://img.shields.io/badge/version-0.1.0-orange.svg)
 
 </div>
 
@@ -13,8 +13,8 @@ this project is open contribution from everyone
 you can just look at test page  
 
 ## Details
-this framework still doesn't have support to all html tag like fieldset or any other tags. 
-If you have any recommendation in styling, let me know by creating issues.
+this framework doesn't have styling in all tag yet. 
+If you have any recommendation, let me know by creating issues.
   
 ## License
 this project is developed under [MIT License](https://github.com/dhanyn10/minini/blob/master/LICENSE)
