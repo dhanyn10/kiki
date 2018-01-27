@@ -1,0 +1,25 @@
+{
+  "name": "minini",
+  "version": "0.1.0",
+  "description": "Framework with MaterialUI color",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanyn10/minini.git"
+  },
+  "keywords": [
+    "framework",
+    "frontend-framework",
+    "minini",
+    "materialui-color"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhanyn10/minini/issues"
+  },
+  "homepage": "https://github.com/dhanyn10/minini#readme"
+}
