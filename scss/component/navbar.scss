@@ -10,9 +10,8 @@
 }
 .navbar{
     list-style:none;
-}
-.right{
-    float: right;
+    padding: 0;
+    margin: 0;
 }
 /*navbar*/
 $n : 0;
@@ -21,14 +20,17 @@ $n : 0;
     $nsize : nth($c, 1);//sm, md, lg
     $val  : nth($c, 2);
 
-    .nav-#{$nsize}
-    {
+    .nav-#{$nsize}{
         padding: 0 nth($val, 1)/2;
-        font-size: nth($val, 1);
+        line-height: nth($val, 3);
+        height: nth($val, 3);
     }
-
     .nav-#{$nsize} .brand{
-        padding-right: 0 nth($val, 1)/2;
+        display: inline-block;
+    }
+    .nav-#{$nsize} .nav-brand-img,
+    .nav-#{$nsize} .nav-brand-text
+    {
         vertical-align: middle;
         display: inline-flex;
     }
