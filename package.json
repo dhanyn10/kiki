@@ -1,5 +1,5 @@
 {
-  "name": "kiki",
+  "name": "minikuna",
   "version": "0.1.0",
   "description": "Framework with MaterialUI color",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhanyn10/kiki.git"
+    "url": "git+https://github.com/dhanyn10/minikuna.git"
   },
   "keywords": [
     "framework",
     "frontend-framework",
-    "kiki",
+    "minikuna",
     "materialui-color"
   ],
   "author": "Dhany Nurdiansyah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dhanyn10/kiki/issues"
+    "url": "https://github.com/dhanyn10/minikuna/issues"
   },
-  "homepage": "https://github.com/dhanyn10/kiki#readme"
+  "homepage": "https://github.com/dhanyn10/minikuna#readme"
 }
