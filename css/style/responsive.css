@@ -5,9 +5,6 @@
   .container-fluid {
     padding: 2px 10px !important;
   }
-  .nav-g-sm {
-    padding-top: 6px;
-  }
   .nav-g-sm .navbar {
     display: block;
   }
@@ -38,9 +35,6 @@
   .container-fluid {
     padding: 2px 25px;
   }
-  .nav-g-md {
-    padding-top: 8px;
-  }
   .nav-g-md .navbar {
     display: block;
   }
@@ -70,9 +64,6 @@
   }
   .container-fluid {
     padding: 2px 40px;
-  }
-  .nav-g-lg {
-    padding-top: 10px;
   }
   .nav-g-lg .navbar {
     display: block;
