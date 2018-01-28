@@ -2,7 +2,7 @@
 
 # Minikuna
 Framework with MaterialUI color  
-![release](https://img.shields.io/badge/version-0.1.0-orange.svg)
+![release](https://img.shields.io/badge/version-0.1.1-orange.svg)
 
 </div>
 
