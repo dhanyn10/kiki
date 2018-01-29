@@ -29,6 +29,17 @@
         -ms-user-select: $val;
             user-select: $val;
 }
+
+@mixin multitagnumbered($length, $tagname){
+    $loop : '';
+    @for $i from 1 through $length {
+        $loop : $loop + $tagname + $i + ',';
+    }
+    #{$loop} {
+        @content;
+    }
+}
+
 @mixin multiclassnumbered($length, $classname){
     $loop : '';
     @for $i from 1 through $length {
