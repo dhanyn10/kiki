@@ -77,11 +77,19 @@ ol{
 }
 
 /*heading*/
-$headingfont : 3.2rem;
+$headingfont : 4.3rem;
+$headingmargin : 2.1rem;
+
+@include multitagnumbered(6, h){
+    display: block;
+    font-weight: 500;
+    line-height: 110%;
+}
 
 @for $i from 0 through 5{
     h#{$i+1}{
-        font-size: $headingfont - 0.4 * $i;
+        font-size: $headingfont - 0.66 * $i;
+        margin: $headingmargin - (0.3 * $i) 0;
     }
 }
 
