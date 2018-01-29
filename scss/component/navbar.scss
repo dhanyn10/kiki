@@ -63,9 +63,11 @@ $n : 0;
     {
         display: inline-flex;
     }
-    .nav-#{$nsize} .nav-link
+    .nav-#{$nsize} .nav-link,
+    .nav-#{$nsize} .nav-link a
     {
         font-size: nth($val, 1);
+        text-decoration: none;
     }
     $n : $n + 1;
 }
