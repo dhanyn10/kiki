@@ -7,7 +7,7 @@
 }
 
 .alert.alert-sm {
-  line-height: 38px;
+  line-height: 40px;
   padding: 0 12px;
   font-size: 12px;
 }
@@ -30,7 +30,7 @@
 }
 
 .alert.alert-md {
-  line-height: 50px;
+  line-height: 54px;
   padding: 0 16px;
   font-size: 16px;
 }
@@ -53,7 +53,7 @@
 }
 
 .alert.alert-lg {
-  line-height: 62px;
+  line-height: 70px;
   padding: 0 20px;
   font-size: 20px;
 }
