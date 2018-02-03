@@ -2,7 +2,7 @@
 
 # Minikuna
 Framework with MaterialUI color  
-![release](https://img.shields.io/badge/version-0.1.1-orange.svg)
+![release](https://img.shields.io/badge/version-0.2.0-orange.svg)
 
 </div>
 
@@ -10,7 +10,8 @@ Framework with MaterialUI color
 this project is open contribution from everyone  
 
 ## How to Use
-you can just look at test page  
+* [basic] you can just look at test page  
+* [npm] install this framework by using command ```npm install minini --save```
 
 ## Details
 this framework doesn't have styling in all tag yet. 
