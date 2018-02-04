@@ -2,11 +2,11 @@
 @import "../function";
 
 .nav{
+    @include boxshadow($elementboxshadow);
+    display: inline-table;
     position: relative;
-    display: table;
     width: 100%;
     clear: both;
-    @include boxshadow($elementboxshadow);
 }
 .navbar{
     list-style:none;
@@ -21,31 +21,26 @@ $n : 0;
     $val  : nth($c, 2);
 
     .nav-#{$nsize}{
-        padding: 0 nth($val, 1)/2;
+        padding: nth($val, 1)/2;
         line-height: nth($val, 3);
         height: nth($val, 3);
     }
-    .nav-#{$nsize} .brand{
-        display: inline-block;
-    }
-    .nav-#{$nsize} .nav-brand-img,
-    .nav-#{$nsize} .nav-brand-text
+    .nav-#{$nsize} .brand
     {
-        vertical-align: middle;
-        display: inline-flex;
+        display: inline-block;
+        font-size: nth($val, 1);
+        font-weight: bold;
     }
     .nav-#{$nsize} .nav-brand-img
     {
-        $valimg : nth($val, 3) - (14 + ($n * 2));
+        vertical-align: middle;
+        margin-right: nth($val, 1)/2;
+    }
+    .nav-#{$nsize} .nav-brand-img
+    {
+        $valimg : nth($val, 3);
         width: $valimg;
         height: $valimg;
-    }
-    .nav-#{$nsize} .nav-brand-text
-    {
-        font-size: nth($val, 1);
-        padding: 0 0.5rem;
-        line-height: nth($val, 3) - 14;
-        font-weight: bold;
     }
     .nav-#{$nsize} .btn{
         margin: auto nth($val, 1)/2;
