@@ -22,12 +22,15 @@
        -moz-flex-direction: $val;
             flex-direction: $val;
 }
-@mixin userselect($val)
-{
-    -webkit-user-select: $val;
-       -moz-user-select: $val;
-        -ms-user-select: $val;
-            user-select: $val;
+
+@mixin multiclassnumbered($length, $classname){
+    $loop : '';
+    @for $i from 1 through $length {
+        $loop : $loop + '.' + $classname + '-' + $i + ',';
+    }
+    #{$loop} {
+        @content;
+    }
 }
 
 @mixin multitagnumbered($length, $tagname){
@@ -40,12 +43,16 @@
     }
 }
 
-@mixin multiclassnumbered($length, $classname){
-    $loop : '';
-    @for $i from 1 through $length {
-        $loop : $loop + '.' + $classname + '-' + $i + ',';
-    }
-    #{$loop} {
-        @content;
-    }
+@mixin userselect($val)
+{
+    -webkit-user-select: $val;
+       -moz-user-select: $val;
+        -ms-user-select: $val;
+            user-select: $val;
+}
+
+@mixin wordwrap($val)
+{
+    -ms-word-wrap: $val;
+        word-wrap: $val;
 }
