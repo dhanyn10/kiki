@@ -1,5 +1,5 @@
 /*
-* javascript for minini framework
+* javascript for minikuna framework
 */
 (function(){
     //alert
