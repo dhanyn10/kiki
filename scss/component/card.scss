@@ -29,4 +29,5 @@
 .card-content-text{
     font-size: 14px;
     line-height: 1.4rem;
+    @include wordwrap(break-word);
 }

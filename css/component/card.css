@@ -36,4 +36,6 @@
 .card-content-text {
   font-size: 14px;
   line-height: 1.4rem;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
