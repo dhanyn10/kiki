@@ -22,22 +22,26 @@ hr,
 nav,
 input,
 pre > code,
-table{
+table
+{
   font-family:"Arial";
   margin:0;
   padding:0;
 }
 
-a{
+a
+{
     color: #1E88E5;
 }
 
-body{
+body
+{
     font-size: 16px;
 }
 
 /*blockquote*/
-blockquote{
+blockquote
+{
     display: block;
     width: 100%;
     border-left: 0.4rem solid #212121;
@@ -46,7 +50,8 @@ blockquote{
     padding: 1.4rem;
 }
 
-blockquote > .footer{
+blockquote > .footer
+{
     display: block;
     color: #616161;
     font-size: 0.8rem;
@@ -55,24 +60,29 @@ blockquote > .footer{
 
 /*code and pre*/
 code,
-pre > code {
+pre > code
+{
     font-family: Courier New, Courier, monospace;
     background: #EEEEEE;
     border-radius: 4px;
 }
 
-code{
+code
+{
     padding: 0.5rem 0.8rem;
     display: inline-block;
 }
 
-pre > code{
+pre > code
+{
+    overflow: auto;
     padding: 1rem 1.4rem;
     display: block;
 }
 
 ul,
-ol{
+ol
+{
     padding: 0 1.6rem;
 }
 
@@ -80,58 +90,70 @@ ol{
 $headingfont : 4.3rem;
 $headingmargin : 2.1rem;
 
-@include multitagnumbered(6, h){
+@include multitagnumbered(6, h)
+{
     display: block;
     font-weight: 500;
     line-height: 110%;
 }
 
-@for $i from 0 through 5{
-    h#{$i+1}{
+@for $i from 0 through 5
+{
+    h#{$i+1}
+    {
         font-size: $headingfont - 0.66 * $i;
         margin: $headingmargin - (0.3 * $i) 0;
     }
 }
 
-hr{
+hr
+{
     display: block;
     margin: 1rem 0;
     border-style: solid;
     border-color: #d1d1d1;
 }
 /*jumper general*/
-@include multiclassnumbered(6, jumper){
+@include multiclassnumbered(6, jumper)
+{
     display: block;
 }
 
 /*jumper each*/
 $jumpermargin: 1rem;
-@for $i from 0 through 5{
-    .jumper-#{$i+1}{
+@for $i from 0 through 5
+{
+    .jumper-#{$i+1}
+    {
         margin:$jumpermargin + $i 0;
     }
 }
 
 /*instant styling*/
-.block{
+.block
+{
     display: block;
     width: 100%;
 }
-.right{
+.right
+{
     float: right;
 }
 
 /*global background*/
-@each $color in $materialcolor {
+@each $color in $materialcolor
+{
     $getcolor   : nth($color, 1);
     $colorname  : str-slice($getcolor, 2);
     $getvalue   : nth($color, 2);
     $colorvalue : nth($getvalue, 1);
-    .bg-#{nth($colorname, 1)}{
+    .bg-#{nth($colorname, 1)}
+    {
         background: #{$colorvalue};
     }
     .text-#{nth($colorname, 1)},
-    .text-#{nth($colorname, 1)} a{
+    .text-#{nth($colorname, 1)} a
+    {
         color: #{$colorvalue};
     }
 }

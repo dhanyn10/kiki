@@ -66,6 +66,7 @@ code {
 }
 
 pre > code {
+  overflow: auto;
   padding: 1rem 1.4rem;
   display: block;
 }
