@@ -20,4 +20,4 @@ this framework doesn't have styling in all tag yet.
 If you have any recommendation, let me know by creating issues.
   
 ## License
-this project is developed under [MIT License](https://github.com/dhanyn10/minikuna/blob/master/LICENSE)
+this project is developed under [MIT License](LICENSE)
