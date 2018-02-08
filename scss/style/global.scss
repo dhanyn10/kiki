@@ -114,7 +114,8 @@ hr
     border-color: #d1d1d1;
 }
 /*jumper general*/
-@include multiclassnumbered(6, jumper)
+$jumperarray : ('mb', 'mt');
+@include multiclassnumberedarray(6, $jumperarray)
 {
     display: block;
 }
@@ -123,9 +124,13 @@ hr
 $jumpermargin: 1rem;
 @for $i from 0 through 5
 {
-    .jumper-#{$i+1}
+    .mb-#{$i+1}
     {
-        margin:$jumpermargin + $i 0;
+        margin-bottom:$jumpermargin + $i 0;
+    }
+    .mt-#{$i+1}
+    {
+        margin-top:$jumpermargin + $i 0;
     }
 }
 
@@ -135,11 +140,24 @@ $jumpermargin: 1rem;
     display: block;
     width: 100%;
 }
+/*text align center*/
+.center
+{
+    text-align: center;
+}
+
+/*float right*/
 .right
 {
     float: right;
 }
 
+/*static component, disable user-select and mouse-over*/
+.static
+{
+    @include userselect(none);
+    cursor: default;
+}
 /*global background*/
 @each $color in $materialcolor
 {

@@ -121,33 +121,57 @@ hr {
 }
 
 /*jumper general*/
-.jumper-1, .jumper-2, .jumper-3, .jumper-4, .jumper-5, .jumper-6 {
+.mb-1, .mb-2, .mb-3, .mb-4, .mb-5, .mb-6, .mt-1, .mt-2, .mt-3, .mt-4, .mt-5, .mt-6 {
   display: block;
 }
 
 /*jumper each*/
-.jumper-1 {
-  margin: 1rem 0;
+.mb-1 {
+  margin-bottom: 1rem 0;
 }
 
-.jumper-2 {
-  margin: 2rem 0;
+.mt-1 {
+  margin-top: 1rem 0;
 }
 
-.jumper-3 {
-  margin: 3rem 0;
+.mb-2 {
+  margin-bottom: 2rem 0;
 }
 
-.jumper-4 {
-  margin: 4rem 0;
+.mt-2 {
+  margin-top: 2rem 0;
 }
 
-.jumper-5 {
-  margin: 5rem 0;
+.mb-3 {
+  margin-bottom: 3rem 0;
 }
 
-.jumper-6 {
-  margin: 6rem 0;
+.mt-3 {
+  margin-top: 3rem 0;
+}
+
+.mb-4 {
+  margin-bottom: 4rem 0;
+}
+
+.mt-4 {
+  margin-top: 4rem 0;
+}
+
+.mb-5 {
+  margin-bottom: 5rem 0;
+}
+
+.mt-5 {
+  margin-top: 5rem 0;
+}
+
+.mb-6 {
+  margin-bottom: 6rem 0;
+}
+
+.mt-6 {
+  margin-top: 6rem 0;
 }
 
 /*instant styling*/
@@ -156,8 +180,23 @@ hr {
   width: 100%;
 }
 
+/*text align center*/
+.center {
+  text-align: center;
+}
+
+/*float right*/
 .right {
   float: right;
+}
+
+/*static component, disable user-select and mouse-over*/
+.static {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 /*global background*/
