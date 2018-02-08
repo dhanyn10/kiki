@@ -28,11 +28,26 @@
     @for $i from 1 through $length {
         $loop : $loop + '.' + $classname + '-' + $i + ',';
     }
-    #{$loop} {
+    #{$loop}
+    {
         @content;
     }
 }
 
+@mixin multiclassnumberedarray($length, $classname){//advanced function for multi class numbered
+    $loop : '';
+    @each $classname in $classname
+    {
+        @for $i from 1 through $length
+        {
+            $loop : $loop + '.' + unquote(nth($classname, 1 )) + '-' + $i + ',';
+        }
+    }
+    #{$loop}
+    {
+        @content;
+    }
+}
 @mixin multitagnumbered($length, $tagname){
     $loop : '';
     @for $i from 1 through $length {
