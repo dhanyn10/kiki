@@ -175,3 +175,17 @@ $jumpermargin: 1rem;
         color: #{$colorvalue};
     }
 }
+
+//wrapper component
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 0.5rem;
+}
+.container{
+    padding: 0.1rem 110px;
+}
+.container-fluid {
+  padding: 0.1rem 55px;
+}
