@@ -126,11 +126,11 @@ $jumpermargin: 1rem;
 {
     .mb-#{$i+1}
     {
-        margin-bottom:$jumpermargin + $i 0;
+        margin-bottom:$jumpermargin + $i;
     }
     .mt-#{$i+1}
     {
-        margin-top:$jumpermargin + $i 0;
+        margin-top:$jumpermargin + $i;
     }
 }
 
