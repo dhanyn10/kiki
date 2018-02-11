@@ -3,7 +3,7 @@
 # Minikuna
 Framework with MaterialUI color  
 ![release](https://img.shields.io/badge/build-passing-green.svg) 
-![release](https://img.shields.io/badge/coverage-100%25-lightgrey.svg) 
+![release](https://img.shields.io/badge/coverage-100%25-green.svg) 
 ![release](https://img.shields.io/badge/stable-0.3.0-orange.svg) 
 
 </div>
