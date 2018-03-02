@@ -6,16 +6,19 @@
 /*table size*/
 @each $tsize in $size
 {
-    $sizeval : nth($tsize, 2);
-    .table.table-#{nth($tsize, 1)}
+    @if(nth($tsize, 1) == "sm" or nth($tsize, 1) == "md")
     {
-        font-size: nth($sizeval, 1);
-        line-height: nth($sizeval, 2);
-    }
-    .table.table-#{nth($tsize, 1)} th,
-    .table.table-#{nth($tsize, 1)} td
-    {
-        padding: 0 nth($sizeval, 1);
+        $sizeval : nth($tsize, 2);
+        .table.table-#{nth($tsize, 1)}
+        {
+            font-size: nth($sizeval, 1);
+            line-height: nth($sizeval, 2);
+        }
+        .table.table-#{nth($tsize, 1)} th,
+        .table.table-#{nth($tsize, 1)} td
+        {
+            padding: 0 nth($sizeval, 1);
+        }
     }
 }
 .table thead th{
