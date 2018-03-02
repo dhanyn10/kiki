@@ -8,8 +8,8 @@
 
 .alert.alert-sm {
   line-height: 32px;
-  padding: 0 12px;
-  font-size: 12px;
+  padding: 0 14px;
+  font-size: 14px;
 }
 
 .alert.alert-sm > .alert-close {
@@ -19,10 +19,10 @@
   user-select: none;
   position: absolute;
   right: 0;
-  font-size: 18px;
+  font-size: 21px;
   display: inline-block;
   cursor: pointer;
-  padding: 0 12px;
+  padding: 0 14px;
 }
 
 .alert.alert-sm > .alert-close:hover {
@@ -31,8 +31,8 @@
 
 .alert.alert-md {
   line-height: 50px;
-  padding: 0 16px;
-  font-size: 16px;
+  padding: 0 18px;
+  font-size: 18px;
 }
 
 .alert.alert-md > .alert-close {
@@ -42,10 +42,10 @@
   user-select: none;
   position: absolute;
   right: 0;
-  font-size: 24px;
+  font-size: 27px;
   display: inline-block;
   cursor: pointer;
-  padding: 0 16px;
+  padding: 0 18px;
 }
 
 .alert.alert-md > .alert-close:hover {
@@ -54,8 +54,8 @@
 
 .alert.alert-lg {
   line-height: 66px;
-  padding: 0 20px;
-  font-size: 20px;
+  padding: 0 22px;
+  font-size: 22px;
 }
 
 .alert.alert-lg > .alert-close {
@@ -65,10 +65,10 @@
   user-select: none;
   position: absolute;
   right: 0;
-  font-size: 30px;
+  font-size: 33px;
   display: inline-block;
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 22px;
 }
 
 .alert.alert-lg > .alert-close:hover {
