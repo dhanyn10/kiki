@@ -1,5 +1,6 @@
 /* reset css */
 * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -22,13 +23,16 @@ nav,
 input,
 pre > code,
 table {
-  font-family: "Arial";
   margin: 0;
   padding: 0;
 }
 
 a {
   color: #1E88E5;
+}
+
+a.btn {
+  text-decoration: none;
 }
 
 body {

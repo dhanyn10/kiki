@@ -3,6 +3,7 @@
 
 /* reset css */
 *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     @include boxsizing(border-box);
 }
 
@@ -24,7 +25,6 @@ input,
 pre > code,
 table
 {
-  font-family:"Arial";
   margin:0;
   padding:0;
 }
@@ -32,6 +32,10 @@ table
 a
 {
     color: #1E88E5;
+}
+a.btn
+{
+    text-decoration: none;
 }
 
 body
