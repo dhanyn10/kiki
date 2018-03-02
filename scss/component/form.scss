@@ -21,14 +21,14 @@ textarea.form{
     $nval   : nth($input, 2);
     .form.form-#{$nsize} input[type='text'],
     .form.form-#{$nsize} select{
-        height: nth($nval, 1)*2;
+        height: nth($nval, 2);
     }
     .form-#{nth($nsize, 1)}
     {
         font-size: nth($nval, 1);
     }
     .form-#{nth($nsize, 1)} textarea{
-        height: nth($nval, 2)*4;
+        height: nth($nval, 2) * 4;
     }
     input[type='radio'].form,
     input[type='checkbox'].form{
