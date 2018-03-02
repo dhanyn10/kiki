@@ -1,5 +1,9 @@
 @import "../config";
 
+.breadcrumb
+{
+    background: #fafafa
+}
 @each $b in $size
 {
     $nsize  : nth($b, 1);
@@ -9,7 +13,7 @@
         list-style:none;
         padding: 0 (nth($nval, 1)*1.5);
         font-size:nth($nval, 1);
-        line-height: nth($nval, 2)*1.5;
+        line-height: nth($nval, 2);
     }    
     .breadcrumb.breadcrumb-#{$nsize} li:after{
         content:"/";
