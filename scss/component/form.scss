@@ -19,12 +19,11 @@ textarea.form{
 {
     $nsize  : nth($input, 1);
     $nval   : nth($input, 2);
+    .form-#{nth($nsize, 1)},
     .form.form-#{$nsize} input[type='text'],
-    .form.form-#{$nsize} select{
-        height: nth($nval, 2);
-    }
-    .form-#{nth($nsize, 1)}
+    .form.form-#{$nsize} select
     {
+        height: nth($nval, 2);
         font-size: nth($nval, 1);
     }
     .form-#{nth($nsize, 1)} textarea{

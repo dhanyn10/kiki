@@ -17,12 +17,10 @@ textarea.form {
   padding: 0.5rem;
 }
 
+.form-sm,
 .form.form-sm input[type='text'],
 .form.form-sm select {
   height: 30px;
-}
-
-.form-sm {
   font-size: 14px;
 }
 
@@ -36,12 +34,10 @@ input[type='checkbox'].form {
   margin-right: 5.6px;
 }
 
+.form-md,
 .form.form-md input[type='text'],
 .form.form-md select {
   height: 42px;
-}
-
-.form-md {
   font-size: 18px;
 }
 
@@ -55,12 +51,10 @@ input[type='checkbox'].form {
   margin-right: 7.2px;
 }
 
+.form-lg,
 .form.form-lg input[type='text'],
 .form.form-lg select {
   height: 54px;
-}
-
-.form-lg {
   font-size: 22px;
 }
 
