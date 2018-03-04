@@ -4,8 +4,7 @@
 .card{
     display: flex;
     @include flexdirection(column);
-    background: white;
-    @include boxshadow($elementboxshadow);
+    @include boxshadow($cardboxshadow);
 }
 .card-header{
     padding: 0.8rem;
