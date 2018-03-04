@@ -2,8 +2,9 @@
 
 # Minikuna
 Framework with MaterialUI color  
-![release](https://img.shields.io/badge/build-notready-red.svg) 
-![release](https://img.shields.io/badge/version-0.4.1-orange.svg) 
+![build](https://img.shields.io/badge/build-notready-red.svg) 
+![release](https://img.shields.io/badge/version-0.4.0-orange.svg) 
+![coming](https://img.shields.io/badge/version-0.4.1-orange.svg) 
 
 </div>
 
