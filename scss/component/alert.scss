@@ -20,7 +20,7 @@
         @include userselect(none);
         position: absolute;
         right: 0;
-        font-size: nth($alertval, 1)*1.5;
+        font-size: nth($alertval, 1);
         display: inline-block;
         cursor: pointer;
         padding: 0 nth($alertval, 1);
