@@ -21,8 +21,8 @@ $n : 0;
     $val  : nth($c, 2);
 
     .nav-#{$nsize}{
-        line-height: nth($val, 2);
-        height: nth($val, 2);
+        line-height: nth($val, 3);
+        height: nth($val, 3);
         padding: 0 nth($val, 2) * .2;
     }
     .nav-#{$nsize} .brand
@@ -30,6 +30,7 @@ $n : 0;
         display: inline-block;
         font-size: nth($val, 1);
         font-weight: bold;
+        padding-right: nth($val, 1);
     }
     .nav-#{$nsize} .nav-brand-img
     {
