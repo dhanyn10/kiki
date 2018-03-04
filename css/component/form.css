@@ -37,12 +37,12 @@ input[type='checkbox'].form {
 .form-md,
 .form.form-md input[type='text'],
 .form.form-md select {
-  height: 42px;
+  height: 38px;
   font-size: 18px;
 }
 
 .form-md textarea {
-  height: 168px;
+  height: 152px;
 }
 
 input[type='radio'].form,
@@ -54,12 +54,12 @@ input[type='checkbox'].form {
 .form-lg,
 .form.form-lg input[type='text'],
 .form.form-lg select {
-  height: 54px;
+  height: 46px;
   font-size: 22px;
 }
 
 .form-lg textarea {
-  height: 216px;
+  height: 184px;
 }
 
 input[type='radio'].form,
