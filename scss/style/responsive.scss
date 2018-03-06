@@ -16,10 +16,10 @@ $smallimportant : "!important";
         .container-fluid{
             padding:2px (10 + 10 * $paddingcontainer)+px unquote($string: $smallimportant);
         }
+        /*component - navigation*/
         .nav-g-#{$nsize} .navbar{
             display: block;
         }
-        /*component - navigation*/
         .nav-g-#{$nsize} .right{
             float: none;
         }
