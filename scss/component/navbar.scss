@@ -1,6 +1,7 @@
 @import "../config";
 @import "../function";
 
+/*navbar*/
 .nav{
     @include boxshadow($elementboxshadow);
     display: inline-table;
@@ -13,7 +14,17 @@
     padding: 0;
     margin: 0;
 }
-/*navbar*/
+/*sidebar*/
+.sidebar .navbar{
+    display: block;
+}
+.sidebar .right{
+    float: none;
+}
+.sidebar .nav-item{
+    display: block;
+    border: 0;
+}
 $n : 0;
 @each $c in $size
 {
@@ -61,6 +72,12 @@ $n : 0;
     {
         font-size: nth($val, 1);
         text-decoration: none;
+    }
+    /* sidebar */
+    .sidebar.nav-#{$nsize} .navnav li{
+        float:none;
+        display:block;
+        padding: 0 nth($val, 1)/2;
     }
     $n : $n + 1;
 }

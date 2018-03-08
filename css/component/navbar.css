@@ -1,3 +1,4 @@
+/*navbar*/
 .nav {
   -webkit-box-shadow: 0px 1px 3px -1px black;
   -moz-box-shadow: 0px 1px 3px -1px black;
@@ -14,7 +15,20 @@
   margin: 0;
 }
 
-/*navbar*/
+/*sidebar*/
+.sidebar .navbar {
+  display: block;
+}
+
+.sidebar .right {
+  float: none;
+}
+
+.sidebar .nav-item {
+  display: block;
+  border: 0;
+}
+
 .nav-sm {
   line-height: 38px;
   height: 38px;
@@ -57,6 +71,13 @@
 .nav-sm .nav-link a {
   font-size: 14px;
   text-decoration: none;
+}
+
+/* sidebar */
+.sidebar.nav-sm .navnav li {
+  float: none;
+  display: block;
+  padding: 0 7px;
 }
 
 .nav-md {
@@ -103,6 +124,13 @@
   text-decoration: none;
 }
 
+/* sidebar */
+.sidebar.nav-md .navnav li {
+  float: none;
+  display: block;
+  padding: 0 9px;
+}
+
 .nav-lg {
   line-height: 58px;
   height: 58px;
@@ -145,4 +173,11 @@
 .nav-lg .nav-link a {
   font-size: 22px;
   text-decoration: none;
+}
+
+/* sidebar */
+.sidebar.nav-lg .navnav li {
+  float: none;
+  display: block;
+  padding: 0 11px;
 }
