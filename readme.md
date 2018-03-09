@@ -3,8 +3,7 @@
 # Minikuna
 Minimal FrontEnd Framework with MaterialUI color  
 ![release](https://img.shields.io/badge/version-0.4.0-orange.svg) 
-![coming](https://img.shields.io/badge/coming-0.4.1-orange.svg) 
-
+![coming](https://img.shields.io/badge/coming-0.5.0-orange.svg) 
 </div>
 
 ## Contribution
