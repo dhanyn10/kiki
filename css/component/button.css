@@ -89,11 +89,6 @@
   border-radius: 0 20px 20px 0;
 }
 
-/*button block*/
-.btn.block {
-  margin: 2px 0;
-}
-
 .btn.bg-white:hover {
   background: #EEEEEE;
 }

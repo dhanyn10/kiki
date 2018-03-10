@@ -54,10 +54,6 @@
 .btn-group.btn-rounded .btn:last-child{
     @include borderradius(0 20px 20px 0);
 }
-/*button block*/
-.btn.block{
-    margin:2px 0;
-}
 
 @each $btn in $materialcolor
 {
