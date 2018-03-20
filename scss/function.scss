@@ -1,22 +1,22 @@
-@mixin boxsizing($val)
+@mixin boxsizing($val) //Chrome 10 | 4, IE 8, Mozilla 29 | 2, Safari 5.1 | 3.2, Opera 9.5
 {
     -webkit-box-sizing: $val;
        -moz-box-sizing: $val;
             box-sizing: $val;
 }
-@mixin boxshadow($val)
+@mixin boxshadow($val) //Chrome 10 | 4, IE 9, Mozilla 4 | 3.5, Safari 5.1 | 3.1, Opera 10.5
 {
     -webkit-box-shadow: $val;
        -moz-box-shadow: $val;
             box-shadow: $val;
 }
-@mixin borderradius($val)
+@mixin borderradius($val) //Chrome 5 | 4, IE 9, Mozilla 4 | 3, Safari 5 | 3.1, Opera 10.5 
 {
     -webkit-border-radius: $val;
        -moz-border-radius: $val;
             border-radius: $val;
 }
-@mixin flexdirection($val)
+@mixin flexdirection($val) //Chrome 29 | 21, IE 11, Mozilla 28 | 18, Safari 9 | 6.1, Opera 17
 {
     -webkit-flex-direction: $val;
        -moz-flex-direction: $val;
