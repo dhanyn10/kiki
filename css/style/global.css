@@ -394,6 +394,19 @@ hr {
   color: #607D8B;
 }
 
+/*global font size*/
+.text-sm {
+  font-size: 14px;
+}
+
+.text-md {
+  font-size: 18px;
+}
+
+.text-lg {
+  font-size: 22px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

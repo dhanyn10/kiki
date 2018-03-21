@@ -180,6 +180,16 @@ $jumpermargin: 1rem;
         color: #{$colorvalue};
     }
 }
+/*global font size*/
+@each $fontsize in $size
+{
+    $fnsize     : nth($fontsize, 1); //font name size
+    $fnvalue    : nth($fontsize, 2); //font name value
+    .text-#{$fnsize}
+    {
+        font-size: nth($fnvalue, 1);
+    }
+}
 
 //wrapper component
 .row{
