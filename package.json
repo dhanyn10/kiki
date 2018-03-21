@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhanyn10/minikuna.git"
+    "url": "git+https://github.com/minikuna/minikuna.git"
   },
   "keywords": [
     "framework",
