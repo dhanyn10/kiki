@@ -70,7 +70,7 @@ $n : 0;
     .nav-#{$nsize} .nav-link,
     .nav-#{$nsize} .nav-link a
     {
-        font-size: nth($val, 1);
+        font-size: inherit;
         text-decoration: none;
     }
     /* sidebar */

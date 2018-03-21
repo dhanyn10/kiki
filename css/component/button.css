@@ -27,21 +27,21 @@
 .btn-sm {
   height: 30px;
   padding: 0 18px;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 30px;
 }
 
 .btn-md {
   height: 38px;
   padding: 0 22.8px;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 38px;
 }
 
 .btn-lg {
   height: 46px;
   padding: 0 27.6px;
-  font-size: 22px;
+  font-size: inherit;
   line-height: 46px;
 }
 
