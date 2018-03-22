@@ -1,6 +1,6 @@
 {
   "name": "minikuna",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Minimal FrontEnd Framework with MaterialUI color",
   "repository": {
     "type": "git",
