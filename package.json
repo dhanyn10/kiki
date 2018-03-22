@@ -2,9 +2,6 @@
   "name": "minikuna",
   "version": "0.5.0",
   "description": "Minimal FrontEnd Framework with MaterialUI color",
-  "scripts": {
-    "test": ""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minikuna/minikuna.git"
