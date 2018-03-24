@@ -2,7 +2,8 @@
 
 # Minikuna
 Minimal FrontEnd Framework with MaterialUI color  
-![release](https://img.shields.io/badge/version-0.6.0-orange.svg) 
+[![npm version](https://badge.fury.io/js/minikuna.svg)](https://badge.fury.io/js/minikuna)
+[![GitHub version](https://badge.fury.io/gh/dhanyn10%2Fminikuna.svg)](https://badge.fury.io/gh/dhanyn10%2Fminikuna)
 </div>
 
 ## Contribution
